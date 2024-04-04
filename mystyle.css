@@ -1,0 +1,23 @@
+:root {
+
+    
+}
+
+.sidemenu {
+    color: blue;
+    display: block;
+    padding: 18px;
+    list-style: no;
+    width: 200px;
+    background-color: aqua;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menus {
+    padding:15px;
+    border-width: 10px;
+    margin: 10px;
+}
