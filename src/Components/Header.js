@@ -11,8 +11,9 @@ const Header = () => {
 <h3 className='logo'>LM</h3>
     <li className='menuItem'><Link to='/'>Home</Link></li>
     <li className='menuItem'><Link to='about'>About</Link></li>
-    <li className='menuItem'><Link to='contact'>Contact</Link></li>
     <li className='menuItem'><Link to='portfolio'>Portfolio</Link></li>
+    <li className='menuItem'><Link to='contact'>Contact</Link></li>
+    
 </ul>
         </header>
       
