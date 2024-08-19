@@ -1,0 +1,25 @@
+.entirePage {
+    display: flex;
+  justify-content: center; 
+}    
+ 
+
+.headerStyle {
+background-color: lightblue;
+justify-content: center;
+align-items: center;
+
+.logo {
+    margin: 30px;
+}
+
+}
+
+.headerMenu {
+    display: flex;
+    list-style: none;
+}
+
+.menuItem {
+margin: 30px
+}
