@@ -1,0 +1,31 @@
+.portfolioStyle {
+  display: flex; 
+  flex-direction: column; 
+  
+  
+}
+
+
+.classProjects {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.individualProjects {
+    list-style: none;
+    display: flex;
+}
+
+
+.projectCard {
+   width: 120px ;
+   height: 150px ; 
+   padding: 10px;
+   border-style: solid; 
+   border-radius: 30px;
+   margin: 25px;
+   text-align: center;
+}
+

@@ -12,18 +12,25 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: skyblue;
-    padding: 10px; 
+    background-color: #1b4f72;
+    padding: 2px; }
+
+
+.navList {
+display: flex;
+color: white;
+}   
 
 .logo {
     margin: 30px;
 }
 
-}
+
 
 .headerMenu {
     display: flex;
     list-style: none;
+    
 }
 
 .menuItem {

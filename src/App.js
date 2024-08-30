@@ -5,6 +5,7 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Porftolio"
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Footer />
     </div>
   );
 }
