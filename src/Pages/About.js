@@ -1,9 +1,27 @@
-
+import css from './CSS/About.css'
 
 const About = () => {
   return (
     <div>
-      About Me
+
+      <div className="aboutCard">
+      About Luis Magtira
+      <p>See more</p>
+      </div>
+
+      <div>
+      Career Experience
+      </div>
+
+      <div>
+      Education
+      </div>
+
+
+
+
+
+      
     </div>
   )
 }
