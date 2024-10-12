@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
-import Portfolio from "./Pages/Portfolio"; // Corrected spelling
+import Portfolio from "./Pages/Portfolio";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Header />
         </header>
 
-        {/* Main content of the page */}
+       
         <div className="contentStyle">
           <Routes>
             <Route path="/" element={<Home />} />
