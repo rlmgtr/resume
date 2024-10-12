@@ -4,9 +4,8 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
-import Portfolio from "./Pages/Porftolio"
+import Portfolio from "./Pages/Portfolio"; // Corrected spelling
 import Footer from "./Components/Footer";
-
 
 function App() {
   return (
@@ -20,10 +19,9 @@ function App() {
         <div className="contentStyle">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="portfolio" element={<Portfolio />} />
-            <Route path="contact" element={<Contact />} />
-            
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </Router>
