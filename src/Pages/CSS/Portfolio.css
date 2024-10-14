@@ -1,32 +1,28 @@
 .portfolioStyle {
   display: flex; 
   flex-direction: column; 
-  
-  
+  align-items: center; 
 }
 
-
-.classProjects {
-    list-style: none;
-    display: flex;
-    margin-left: 100px;
-
-}
-
+.classProjects,
 .individualProjects {
     list-style: none;
-    display: flex;
-    margin-left: 100px;
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 0; 
+    justify-content: center; 
+    margin: 0;
 }
 
-
 .projectCard {
-   width: 120px ;
-   height: 150px ; 
+   width: 400px;
+   height: 150px; 
    padding: 10px;
    border-style: solid; 
    border-radius: 30px;
-   margin: 25px;
+   margin: 15px; 
    text-align: center;
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
 }
-
