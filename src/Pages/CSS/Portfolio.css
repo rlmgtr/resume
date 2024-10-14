@@ -16,13 +16,23 @@
 
 .projectCard {
    width: 400px;
-   height: 150px; 
-   padding: 10px;
+   height: auto; /* Let the card height adjust based on the content */
+   padding: 20px;
    border-style: solid; 
    border-radius: 30px;
    margin: 15px; 
    text-align: center;
    display: flex; 
-   align-items: center; 
-   justify-content: center; 
+   flex-direction: column; /* Stack items vertically */
+   align-items: center; /* Center the content horizontally */
+   justify-content: space-between; /* Distribute space between elements */
+}
+
+.techUsed {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }

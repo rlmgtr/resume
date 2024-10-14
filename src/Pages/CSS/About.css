@@ -11,3 +11,10 @@ font-size: 30px;
 text-align: center;
 
 }
+
+.educCard, .educList, .workList, .workCard {
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+
