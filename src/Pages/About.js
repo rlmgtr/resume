@@ -5,16 +5,35 @@ const About = () => {
     <div>
 
       <div className="aboutCard">
-      About Luis Magtira
-      <p>See more</p>
+      Luis Magtira
       </div>
 
       <div>
-      Career Experience
+        <div className='aboutTitle'>Education</div>
+      
+      <div>
+        GoIT
       </div>
 
       <div>
-      Education
+        CMU
+      </div>
+
+      </div>
+
+
+
+
+      <div>
+        <div className='aboutTitle'>Work Exp</div>
+
+        <div>LSS</div>
+
+        <div>Teacher</div>
+
+        <div>CSR</div>
+    
+
       </div>
 
 
