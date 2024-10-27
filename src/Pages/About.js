@@ -1,4 +1,7 @@
 import css from './CSS/About.css';
+import lss from '../images/lss.jpg';
+import educ from '../images/educ.jpg';
+import call from '../images/call.jpg';
 
 const About = () => {
   return (
@@ -24,6 +27,18 @@ const About = () => {
           </ul>
         </div>
 
+        <div className='educCard'>
+          <ul>
+          <li>GoIT</li>
+          <li><img drc="diploma.jpg" alt="bsit diploma"/></li>
+          </ul>
+          
+          <ul>
+          <li>Education Degree</li>
+          <li>Graduation Year</li>
+          </ul>
+        </div>
+
         
         <div className='educCard'>
           <ul>
@@ -41,46 +56,44 @@ const About = () => {
 
 
       <div className='aboutWork'>
-        <div className='aboutTitle'>Work Exp</div>
+        <div className='aboutTitle'>Work Experience</div>
 <div className='workList'>
         
         <div className='workCard'>
           <ul>
-          <li>
-          <img src="../images/lss.jpg" width={200} height={150} alt="workimage" />
-          </li>
+          <li> <img src={lss} width={200} height={150} alt="workimage" /></li>
           </ul>
 
           <ul>
-          <li>LSS</li>
-          <li>Company</li>
-          <li>Work year</li>
+          <li>Learning Solutions Specialist</li>
+          <li>Rex Education</li>
+          <li>June 2020 - Present</li>
           </ul>
         </div>
 
 
         <div className='workCard'>
           <ul>
-          <li><img src="work.jpg" alt="workimage"/></li>
+          <li><img src={educ} width={200} height={150} alt="workimage" /></li>
           </ul>
 
           <ul>
-          <li>Faculty</li>
-          <li>Company</li>
-          <li>Work year</li>
+          <li>Senior High School Faculty</li>
+          <li>AdU | PCCr | IS </li>
+          <li>June 2017 - November 2022</li>
           </ul>
         </div>
 
 
         <div className='workCard'>
           <ul>
-          <li><img src="work.jpg" alt="workimage"/></li>
+          <li><img src={call} width={150} height={150} alt="workimage" /></li>
           </ul>
 
           <ul>
-          <li>CSR</li>
-          <li>Company</li>
-          <li>Work year</li>
+          <li>Customer Service Representative</li>
+          <li>Concentrix | Convergys Ph</li>
+          <li>September 2011 - May 2017</li>
           </ul>
         </div>
 

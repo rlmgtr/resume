@@ -12,9 +12,18 @@ text-align: center;
 
 }
 
-.educCard, .educList, .workList, .workCard {
+.educCard, .educList, .workList {
 display: flex;
 flex-direction: row;
 margin: auto;
 }
 
+.workCard {
+    margin: auto;
+}
+
+
+
+ul {
+list-style: none;    
+}
