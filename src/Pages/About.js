@@ -46,7 +46,9 @@ const About = () => {
         
         <div className='workCard'>
           <ul>
-          <li><img src="work.jpg" alt="workimage"/></li>
+          <li>
+          <img src="../images/lss.jpg" width={200} height={150} alt="workimage" />
+          </li>
           </ul>
 
           <ul>
