@@ -1,0 +1,32 @@
+.techs {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black; 
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.tech-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items in the list */
+    align-items: center; /* Center items vertically */
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+    list-style: none; /* Remove bullet points from the list */
+}
+
+.tech-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid black; 
+    margin: 5px; /* Space between items */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}

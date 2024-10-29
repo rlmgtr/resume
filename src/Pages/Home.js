@@ -1,4 +1,4 @@
-
+import css from './CSS/Home.css'
 
 const Home = () => {
   return (
@@ -7,8 +7,8 @@ const Home = () => {
 
 
 
-      <div>Home Page - this text is for test! 
-      additional for change test </div>
+      <div>Hi! my name is Luis. You Junior Programmer.
+      </div>
 
 
 
@@ -17,16 +17,62 @@ const Home = () => {
 </div>
 
 
-<div>
+<div className="techs">
 
 
-Technologies
+<ul className='tech-list'>
 
-<ul>
-  <li>MongoD</li>
-  <li>Express JS</li>
-  <li>React JS</li>
-  <li>Node JS</li>
+
+<li>
+<div className="tech-item">
+    MongoDB
+</div>
+</li>
+
+
+
+
+<li>
+<div className="tech-item">
+    Express
+</div>
+</li>
+
+<li>
+<div className="tech-item">
+    React
+</div>
+</li>
+
+<li>
+<div className="tech-item">
+    Node
+</div>
+</li>
+
+
+<li>
+<div className="tech-item">
+    JS
+</div>
+</li>
+
+<li>
+<div className="tech-item">
+    CSS
+</div>
+</li>
+
+
+<li>
+<div className="tech-item">
+    html
+</div>
+</li>
+
+
+
+
 </ul>
 
 
@@ -35,13 +81,14 @@ Technologies
 </div>
 
 
+
+
+
+
+
+
+
     </div>
-
-
-
-
-
-
   )
 }
 
