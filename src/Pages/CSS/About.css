@@ -1,31 +1,90 @@
+/* Container for centering cards */
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height for vertical centering */
+}
+
 .aboutCard {
     padding: 10px;
     border-style: solid;
     margin: 20px;
     width: 500px;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers content inside the card */
 }
 
 .aboutTitle {
-font-size: 30px;
-text-align: center;
-
+    font-size: 30px;
+    text-align: center;
 }
 
-.educCard, .educList, .workList {
-display: flex;
-flex-direction: row;
-margin: auto;
-}
-
-.workCard {
+.educList, .workList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centers items horizontally */
     margin: auto;
 }
 
+.workCardContainer {
+    display: flex;
+    justify-content: center; /* Centers the workCard within the container */
+    margin: 30px;           /* Adds margin around the container */
+}
 
+.workCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: 300px;
+    border-style: solid;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 0;      /* Removes default padding */
+}
 
-ul {
-list-style: none;    
+.workCard li {
+    flex-grow: 1; /* Allows items to grow and occupy available space */
+    text-align: center; /* Centers text inside each list item */
 }
 
 
+
+
+.eduCardContainer {
+    display: flex;
+    justify-content: center; /* Centers the workCard within the container */
+    margin: 30px;           /* Adds margin around the container */
+}
+
+.educCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-style: solid;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 0;      /* Removes default padding */
+    
+}
+
+.educCard li {
+    flex-grow: 1; /* Allows items to grow and occupy available space */
+    text-align: center; /* Centers text inside each list item */
+}
+
+/* Optional reset for lists */
+ul {
+    list-style: none;    
+    justify-content: center;
+    align-items: center;
+}
