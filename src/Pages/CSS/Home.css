@@ -1,11 +1,17 @@
+.homeWrapper {
+    display: flex;
+}
+
 .techs {
-    width: 350px;
+    width: 600px;
     height: 200px;
     border-radius: 10px;
     border: 2px solid black; 
     display: flex;
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
+    margin-top: 80px;
+    margin-left: 10px;
 }
 
 .tech-list {
@@ -24,7 +30,7 @@
     height: 60px;
     border-radius: 10px;
     border: 2px solid black; 
-    margin: 5px; /* Space between items */
+    margin: 15px; /* Space between items */
     display: flex; 
     justify-content: center; 
     align-items: center; 

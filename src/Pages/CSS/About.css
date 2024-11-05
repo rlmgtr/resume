@@ -35,20 +35,6 @@
 }
 
 
-
-.workCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 240px;
-    width: 300px;
-    border-style: solid;
-    padding-top: 20px;
-    box-sizing: border-box;
-    padding: 0;      /* Removes default padding */
-}
-
 .workCard li {
     flex-grow: 1; /* Allows items to grow and occupy available space */
     text-align: center; /* Centers text inside each list item */
@@ -56,7 +42,9 @@
 
 .eduCardContainer, .workCardContainer {
     justify-content: center;
-    margin: 20px;           
+    margin: 20px;   
+    align-items: center;        
+
 }
 
 
@@ -68,8 +56,10 @@
     display: block;
     max-width: 100%;
     height: auto;
-    padding: 10px;
     background-color: slategrey;
+    justify-content: center;
+    padding: 20px;
+   
 }
 
 .eduCardInfo, .workCardInfo {
@@ -81,13 +71,13 @@
     align-items: center;
     justify-content: center;
     display: inline-block;
-    border-style: solid;
+   
     border-radius: 10px;
     width: 220px;
     height: 100px;
     margin-top: 10px;
     padding-top: 10px;
-    background-color: skyblue;
+    background-color: rgb(18, 178, 227);
   }
 
 .eduCardContainer:hover .eduCardInfo {

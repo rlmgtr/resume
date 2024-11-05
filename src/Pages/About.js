@@ -18,7 +18,7 @@ const About = () => {
         
         <div className='workCardContainer'>
           <div className='workCardImg'>
-          <img src={educ} width={200} height={150} alt="workimage" />
+          <img src={educ} width={180} height={180} alt="workimage" />
           </div>
 
           <div className='workCardInfo'>
@@ -30,7 +30,7 @@ const About = () => {
        
         <div className='workCardContainer'>
           <div className='workCardImg'>
-          <img src={lss} width={200} height={150} alt="workimage" />
+          <img src={lss} width={180} height={180} alt="workimage" />
           </div>
 
           <div className='workCardInfo'>
@@ -43,7 +43,7 @@ const About = () => {
 
         <div className='workCardContainer'>
           <div className='workCardImg'>
-          <img src={call} width={200} height={150} alt="workimage" />
+          <img src={call} width={180} height={180} alt="workimage" />
           </div>
 
           <div className='workCardInfo'>
@@ -66,7 +66,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={goit} width={200} alt="bsit diploma"/>
+          <img src={goit} width={180} alt="bsit diploma"/>
           </div>
 
           <div className="eduCardInfo">
@@ -78,7 +78,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={cmu} width={200} alt="bsit diploma"/>
+          <img src={cmu} width={180} alt="bsit diploma"/>
           </div>
           <div className="eduCardInfo">
           <li>City of Malabon University</li><p></p>
@@ -90,7 +90,7 @@ const About = () => {
         
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={pnu} width={200} alt="bsit diploma"/>
+          <img src={pnu} width={180} alt="bsit diploma"/>
           </div>
           <div className="eduCardInfo">
           <li>GoIT Philippines IT Bootcamp</li><p></p>
@@ -101,7 +101,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={ntc} width={200} alt="bsit diploma"/>
+          <img src={ntc} width={180} alt="bsit diploma"/>
           </div>
           <div className="eduCardInfo">
           <li>GoIT Philippines IT Bootcamp</li><p></p>
