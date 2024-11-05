@@ -58,4 +58,18 @@ margin: 30px
         
     }
 
-   
+
+    .navList a {
+        font-family: 'Konkhmer Sleokchher', sans-serif;
+        color: white;
+        
+    }
+
+/*    .navList a,
+    .navList a:visited,
+    .navList a:hover,
+    .navList a:active {
+        color: white;
+        text-decoration: none; /* Optional 
+    } 
+    */
