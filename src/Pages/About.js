@@ -13,40 +13,45 @@ const About = () => {
   
 
       <div className='aboutWork'>
-        <div className='aboutTitle'>Work Experience</div>
+        <div className='aboutTitle'>Work Experiences</div>
 <div className='workList'>
         
         <div className='workCardContainer'>
-          
-          <ul className='workCard' >
-          <li> <img src={lss} width={200} height={150} alt="workimage" /></li>
-          <li>Learning Solutions Specialist</li>
-          <li>Rex Education</li>
-          <li>June 2020 - Present</li>
-          </ul>
+          <div className='workCardImg'>
+          <img src={educ} width={200} height={150} alt="workimage" />
           </div>
-      
 
-
-        
-          <ul className='workCard'>
-          <li><img src={educ} width={200} height={150} alt="workimage" /></li>
-          <li>Senior High School Faculty</li>
-          <li>AdU | PCCr | IS </li>
-          <li>June 2017 - November 2022</li>
-          </ul>
-        
-
-
-       
-          <ul className='workCard'>
-          <li><img src={call} width={150} height={150} alt="workimage" /></li>
-          
+          <div className='workCardInfo'>
           <li>Customer Service Representative</li>
           <li>Concentrix | Convergys Ph</li>
           <li>September 2011 - May 2017</li>
-          </ul>
+          </div>
+        </div>  
        
+        <div className='workCardContainer'>
+          <div className='workCardImg'>
+          <img src={lss} width={200} height={150} alt="workimage" />
+          </div>
+
+          <div className='workCardInfo'>
+          <li>Customer Service Representative</li>
+          <li>Concentrix | Convergys Ph</li>
+          <li>September 2011 - May 2017</li>
+          </div>
+        </div>
+
+
+        <div className='workCardContainer'>
+          <div className='workCardImg'>
+          <img src={call} width={200} height={150} alt="workimage" />
+          </div>
+
+          <div className='workCardInfo'>
+          <li>Customer Service Representative</li>
+          <li>Concentrix | Convergys Ph</li>
+          <li>September 2011 - May 2017</li>
+          </div>
+        </div>
 
   </div>
 
@@ -54,54 +59,55 @@ const About = () => {
 
 
   <div className='aboutEduc'>
+
         <div className='aboutTitle'>Education</div>
       
       <div className='educList'>
+
+        <div className='eduCardContainer'>
+          <div className='eduCardImg' >
+          <img src={goit} width={200} alt="bsit diploma"/>
+          </div>
+
+          <div className="eduCardInfo">
+          <li>GoIT Philippines IT Bootcamp</li><p></p>
+          <li>Full-Stack Web Development  </li><p></p>
+          <li>October 2023 - October 2024</li><p></p>
+          </div>
+        </div>
+
+        <div className='eduCardContainer'>
+          <div className='eduCardImg' >
+          <img src={cmu} width={200} alt="bsit diploma"/>
+          </div>
+          <div className="eduCardInfo">
+          <li>City of Malabon University</li><p></p>
+          <li>B.S. in Information Technology</li><p></p>
+          <li>June 2008 - April 2012</li><p></p>
+          </div>
+        </div>
+
         
         <div className='eduCardContainer'>
-          <ul className='educCard'>
-          <li><img src={goit} width={200} alt="bsit diploma"/></li>
-          <li>GoIT</li>
-          <li>Fullstack</li>
-          <li>Graduation Year</li>
-          </ul>
+          <div className='eduCardImg' >
+          <img src={pnu} width={200} alt="bsit diploma"/>
+          </div>
+          <div className="eduCardInfo">
+          <li>GoIT Philippines IT Bootcamp</li><p></p>
+          <li>Full Stack Web Development  </li><p></p>
+          <li>October 2023 - October 2024</li><p></p>
+          </div>
         </div>
 
-        <div className='educCard'>
-          <ul>
-          <li>GoIT</li>
-          <li><img src={cmu} width={200} alt="bsit diploma"/></li>
-          </ul>
-          
-          <ul>
-          <li>Education Degree</li>
-          <li>Graduation Year</li>
-          </ul>
-        </div>
-
-        
-        <div className='educCard'>
-          <ul>
-          <li>CMU</li>
-          <li><img src={pnu}  width={200} alt="bsit diploma"/></li>
-          </ul>
-          
-          <ul>
-          <li>BSIT</li>
-          <li>Graduation Year</li>
-          </ul>
-        </div>
-
-        <div className='educCard'>
-          <ul>
-          <li>CMU</li>
-          <li><img src={ntc} width={200} alt="bsit diploma"/></li>
-          </ul>
-          
-          <ul>
-          <li>BSIT</li>
-          <li>Graduation Year</li>
-          </ul>
+        <div className='eduCardContainer'>
+          <div className='eduCardImg' >
+          <img src={ntc} width={200} alt="bsit diploma"/>
+          </div>
+          <div className="eduCardInfo">
+          <li>GoIT Philippines IT Bootcamp</li><p></p>
+          <li>Full Stack Web Development  </li><p></p>
+          <li>October 2023 - October 2024</li><p></p>
+          </div>
         </div>
 
 

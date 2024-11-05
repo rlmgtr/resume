@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
+
+
 /* Container for centering cards */
 .centerContainer {
     display: flex;
@@ -21,20 +24,17 @@
 .aboutTitle {
     font-size: 30px;
     text-align: center;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
 }
 
 .educList, .workList {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Centers items horizontally */
+    justify-content: center; 
     margin: auto;
 }
 
-.workCardContainer {
-    display: flex;
-    justify-content: center; /* Centers the workCard within the container */
-    margin: 30px;           /* Adds margin around the container */
-}
+
 
 .workCard {
     display: flex;
@@ -54,28 +54,52 @@
     text-align: center; /* Centers text inside each list item */
 }
 
-
-
-
-.eduCardContainer {
-    display: flex;
-    justify-content: center; /* Centers the workCard within the container */
-    margin: 30px;           /* Adds margin around the container */
+.eduCardContainer, .workCardContainer {
+    justify-content: center;
+    margin: 20px;           
 }
 
-.educCard {
-    display: flex;
-    flex-direction: column;
+
+
+
+.eduCardImg, .workCardImg  {
+    
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: slategrey;
+}
+
+.eduCardInfo, .workCardInfo {
+    display: block;
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 300px;
+    display: inline-block;
     border-style: solid;
-    padding-top: 20px;
-    box-sizing: border-box;
-    padding: 0;      /* Removes default padding */
-    
-}
+    border-radius: 10px;
+    width: 220px;
+    height: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: skyblue;
+  }
+
+.eduCardContainer:hover .eduCardInfo {
+    opacity: 1;
+    transform: translateY(0);
+  }  
+
+.workCardContainer:hover .workCardInfo {
+    opacity: 1;
+    transform: translateY(0);
+  }  
+
 
 .educCard li {
     flex-grow: 1; /* Allows items to grow and occupy available space */
@@ -83,7 +107,7 @@
 }
 
 /* Optional reset for lists */
-ul {
+ul, li {
     list-style: none;    
     justify-content: center;
     align-items: center;

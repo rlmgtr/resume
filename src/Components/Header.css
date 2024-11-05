@@ -1,3 +1,6 @@
+
+@import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
+
 .entirePage {
     display: flex;
     flex-direction: column;
@@ -48,3 +51,11 @@ margin: 30px
     padding: 20px;
     box-sizing: border-box;
     flex: 1; /* Allows content to expand and push footer down */ }
+
+    .navList a {
+        font-family: 'Konkhmer Sleokchher', sans-serif;
+        color: white;
+        
+    }
+
+   
