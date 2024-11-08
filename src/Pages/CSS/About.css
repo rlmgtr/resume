@@ -34,6 +34,23 @@
     margin: auto;
 }
 
+.workCaption {
+    display: block;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+   
+    border-radius: 10px;
+    width: 220px;
+    height: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: rgb(18, 178, 227);
+}
 
 .workCard li {
     flex-grow: 1; /* Allows items to grow and occupy available space */
@@ -89,6 +106,11 @@
     opacity: 1;
     transform: translateY(0);
   }  
+
+.workCardContainer:hover .workCaption {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 
 .educCard li {

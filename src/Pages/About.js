@@ -17,6 +17,11 @@ const About = () => {
 <div className='workList'>
         
         <div className='workCardContainer'>
+
+          <div className='workCaption'>
+            <p>I am currently working as LSS</p>
+          </div>
+
           <div className='workCardImg'>
           <img src={educ} width={180} height={180} alt="workimage" />
           </div>
