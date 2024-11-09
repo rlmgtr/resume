@@ -14,47 +14,56 @@ const About = () => {
 
       <div className='aboutWork'>
         <div className='aboutTitle'>Work Experiences</div>
+
+
 <div className='workList'>
         
         <div className='workCardContainer'>
 
           <div className='workCaption'>
-            <p>I am currently working as LSS</p>
+            I have been a Product Support Specialist for an LMS product since 2020
           </div>
 
           <div className='workCardImg'>
-          <img src={educ} width={180} height={180} alt="workimage" />
+          <img src={lss} width={150} height={150} alt="workimage" className='abtImg'/>
           </div>
 
           <div className='workCardInfo'>
-          <li>Customer Service Representative</li>
-          <li>Concentrix | Convergys Ph</li>
-          <li>September 2011 - May 2017</li>
+          This job has enhanced my knowledge of user experience and interfaces.
           </div>
         </div>  
        
         <div className='workCardContainer'>
+
+        <div className='workCaption'>
+        I was a Research and ICT SHS teacher from 2017 to 2020.
+          </div>
+
           <div className='workCardImg'>
-          <img src={lss} width={180} height={180} alt="workimage" />
+          <img src={educ} width={150} height={150} alt="workimage" className='abtImg'/>
           </div>
 
           <div className='workCardInfo'>
-          <li>Customer Service Representative</li>
-          <li>Concentrix | Convergys Ph</li>
-          <li>September 2011 - May 2017</li>
+          This profession made me a better researcher and a more eager learner.
           </div>
         </div>
 
 
+        
+
+
         <div className='workCardContainer'>
+
+        <div className='workCaption'>
+        I worked as a TSR and CSR in 2011 to 2017
+          </div>
+
           <div className='workCardImg'>
-          <img src={call} width={180} height={180} alt="workimage" />
+          <img src={call} width={150} height={150} alt="workimage" className='abtImg' />
           </div>
 
           <div className='workCardInfo'>
-          <li>Customer Service Representative</li>
-          <li>Concentrix | Convergys Ph</li>
-          <li>September 2011 - May 2017</li>
+          I gained knowledge in troubleshooting and communication.
           </div>
         </div>
 
@@ -71,7 +80,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={goit} width={180} alt="bsit diploma"/>
+          <img src={goit} width={150} alt="bsit diploma"/>
           </div>
 
           <div className="eduCardInfo">
@@ -83,7 +92,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={cmu} width={180} alt="bsit diploma"/>
+          <img src={cmu} width={150} alt="bsit diploma" />
           </div>
           <div className="eduCardInfo">
           <li>City of Malabon University</li><p></p>
@@ -95,7 +104,7 @@ const About = () => {
         
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={pnu} width={180} alt="bsit diploma"/>
+          <img src={pnu} width={150} alt="bsit diploma" className='abtImg'/>
           </div>
           <div className="eduCardInfo">
           <li>GoIT Philippines IT Bootcamp</li><p></p>
@@ -106,7 +115,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={ntc} width={180} alt="bsit diploma"/>
+          <img src={ntc} width={150} alt="bsit diploma" className='abtImg'/>
           </div>
           <div className="eduCardInfo">
           <li>GoIT Philippines IT Bootcamp</li><p></p>

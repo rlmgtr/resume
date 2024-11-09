@@ -34,22 +34,46 @@
     margin: auto;
 }
 
+.abtImg {
+border-radius: 10px;
+}
+
+.eduCardImg, .workCardImg  {
+    
+    border-radius: 10px;
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    background-color: slategrey;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+
+}
+
+/******************************************* WORK *******************************/
+
 .workCaption {
-    display: block;
+    display: grid;
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     text-align: center;
-    align-items: center;
     justify-content: center;
     display: inline-block;
-   
-    border-radius: 10px;
-    width: 220px;
-    height: 100px;
-    margin-top: 10px;
-    padding-top: 10px;
+    border-radius: 20px;
+    width: 150px;
+    height: 70px;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
     background-color: rgb(18, 178, 227);
+    font-size: small;
+    line-height: 1.5;
+    place-items: center;
+    
+   
 }
 
 .workCard li {
@@ -57,29 +81,23 @@
     text-align: center; /* Centers text inside each list item */
 }
 
-.eduCardContainer, .workCardContainer {
+.workCardContainer {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 20px;   
-    align-items: center;        
-
+    align-items: center; 
+    padding: 10px;
+    width: auto;
 }
 
+.workCardContainer:hover .workCardInfo {
+    opacity: 1;
+    transform: translateY(0);
+  }  
 
 
-
-.eduCardImg, .workCardImg  {
-    
-    border-radius: 10px;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    background-color: slategrey;
-    justify-content: center;
-    padding: 20px;
-   
-}
-
-.eduCardInfo, .workCardInfo {
+.workCardInfo {
     display: block;
     opacity: 0;
     transform: translateY(-30px);
@@ -97,20 +115,56 @@
     background-color: rgb(18, 178, 227);
   }
 
-.eduCardContainer:hover .eduCardInfo {
-    opacity: 1;
-    transform: translateY(0);
-  }  
 
-.workCardContainer:hover .workCardInfo {
-    opacity: 1;
-    transform: translateY(0);
-  }  
-
-.workCardContainer:hover .workCaption {
+  .workCardContainer:hover .workCaption {
     opacity: 1;
     transform: translateY(0);
 }
+/******************************************* EDUC *******************************/
+
+
+
+
+.eduCardContainer {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;   
+    align-items: center; 
+    padding: 10px;
+    position: relative;
+
+  }
+
+
+.eduCardInfo {
+    position: absolute;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    opacity: ; /* Start as hidden */
+    transform: translateY(100%); /* Start below the image */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    margin-bottom: 10px;
+  
+  }
+
+.eduCardContainer:hover .eduCardInfo {
+    opacity: 1; /* Make the info visible */
+  transform: translateY(0); /* Move the info upwards to cover the image */
+  }  
+
+
+  .eduCardContainer:hover .eduCardInfo {
+    opacity: 1; /* Make the info visible */
+    transform: translateY(0); /* Move the info upwards to cover the image */
+  }
+
 
 
 .educCard li {
@@ -124,3 +178,6 @@ ul, li {
     justify-content: center;
     align-items: center;
 }
+
+
+
