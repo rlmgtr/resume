@@ -1,6 +1,12 @@
+
+
 .homeWrapper {
     display: flex;
+    background-color: green;
+
 }
+
+
 
 .techs {
     width: 600px;

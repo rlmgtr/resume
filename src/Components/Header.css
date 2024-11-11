@@ -15,8 +15,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #1b4f72;
-    padding: 2px; }
+    height: 80px;
+    background-color: rgba(3, 3, 3, 0.925);
+
+    
+
+}
 
 
 .navList {
@@ -26,6 +30,7 @@ color: white;
 
 .logo {
     margin: 30px;
+    color: white;
 }
 
 
@@ -62,10 +67,15 @@ margin: 30px
     .navList a {
         font-family: 'Konkhmer Sleokchher', sans-serif;
         color: white;
-        
-    }
+        text-decoration: none;
+      }
+      
+      .navList a.current {
+        color: rgba(13, 55, 172, 0.822); /* Blue color for the active link */
+      }
+      
 
-/*    .navList a,
+    /*    .navList a,
     .navList a:visited,
     .navList a:hover,
     .navList a:active {

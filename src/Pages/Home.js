@@ -8,24 +8,22 @@ import csstyle from '../images/About/csstyle.jpg';
 import html from '../images/About/html.jpg';
 import sampleme from '../images/About/sampleme.jpg'
 
-
+const homeBg = {
+  backgroundImage: `url(${sampleme})`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  height: '100vh',
+  width: '100%',
+};
 
 
 const Home = () => {
   return (
-    <div className='homeWrapper'>
+    <div className='homeWrapper' style={homeBg}>
 
 
 
-
-      <div>Hi! my name is Luis. You Junior Programmer.
-      </div>
-
-
-
-<div>
-  <img src={sampleme} alt="me"/>
-</div>
 
 
 <div className="techs">
@@ -81,8 +79,6 @@ const Home = () => {
 <img src={html} width={75} height={75} alt='html'/> 
 </div>
 </li>
-
-
 
 
 </ul>

@@ -32,6 +32,11 @@ const About = () => {
           This job has enhanced my knowledge of user experience and interfaces.
           </div>
         </div>  
+
+
+
+
+
        
         <div className='workCardContainer'>
 
@@ -80,7 +85,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={goit} width={150} alt="bsit diploma"/>
+          <img src={goit} width={150} alt="bsit diploma" className='abtImg'/>
           </div>
 
           <div className="eduCardInfo">
@@ -92,7 +97,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={cmu} width={150} alt="bsit diploma" />
+          <img src={cmu} width={150} alt="bsit diploma" className='abtImg' />
           </div>
           <div className="eduCardInfo">
           <li>City of Malabon University</li><p></p>
@@ -107,9 +112,9 @@ const About = () => {
           <img src={pnu} width={150} alt="bsit diploma" className='abtImg'/>
           </div>
           <div className="eduCardInfo">
-          <li>GoIT Philippines IT Bootcamp</li><p></p>
-          <li>Full Stack Web Development  </li><p></p>
-          <li>October 2023 - October 2024</li><p></p>
+          <li>Philippine Normal University</li><p></p>
+          <li>MA in Educational Management  </li><p></p>
+          <li>December 2017 - June 2021</li><p></p>
           </div>
         </div>
 
@@ -118,9 +123,9 @@ const About = () => {
           <img src={ntc} width={150} alt="bsit diploma" className='abtImg'/>
           </div>
           <div className="eduCardInfo">
-          <li>GoIT Philippines IT Bootcamp</li><p></p>
-          <li>Full Stack Web Development  </li><p></p>
-          <li>October 2023 - October 2024</li><p></p>
+          <li>National Teachers College</li><p></p>
+          <li>Education Certification Program  </li><p></p>
+          <li>June 2016 - April 2017</li><p></p>
           </div>
         </div>
 

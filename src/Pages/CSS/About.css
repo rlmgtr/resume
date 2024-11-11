@@ -1,6 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
 
 
+
+div {
+background-color: 	#e4e7eed8;
+}
+
 /* Container for centering cards */
 .centerContainer {
     display: flex;
@@ -44,7 +49,7 @@ border-radius: 10px;
     display: grid;
     max-width: 100%;
     height: auto;
-    background-color: slategrey;
+    background-color: rgba(13, 55, 172, 0.822);
     justify-content: center;
     padding: 8px;
     align-items: center;
@@ -60,18 +65,20 @@ border-radius: 10px;
     transition: opacity 0.3s ease, transform 0.3s ease;
     text-align: center;
     justify-content: center;
-    display: inline-block;
-    border-radius: 20px;
+    place-items: center;
+    border-radius: 12px;
     width: 150px;
-    height: 70px;
+    height: 50px;
     padding-top: 5px;
     margin-top: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(18, 178, 227);
+    padding: 5px;
+    margin-bottom: 2.5px;
+    background-color: rgba(31, 83, 224, 0.89);
     font-size: small;
-    line-height: 1.5;
+    color: white;
+    line-height: 1.2;
     place-items: center;
+    font-size: smaller;
     
    
 }
@@ -98,21 +105,21 @@ border-radius: 10px;
 
 
 .workCardInfo {
-    display: block;
+    display: grid;
+    place-items: center;
     opacity: 0;
     transform: translateY(-30px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     text-align: center;
     align-items: center;
     justify-content: center;
-    display: inline-block;
-   
-    border-radius: 10px;
-    width: 220px;
-    height: 100px;
-    margin-top: 10px;
-    padding-top: 10px;
-    background-color: rgb(18, 178, 227);
+    border-radius: 12px;
+    width: 170px;
+    height: 60px;
+    margin-top: 2.5px;
+    background-color: rgba(31, 83, 224, 0.89);
+    color: white;
+    font-size: smaller;
   }
 
 
@@ -133,24 +140,27 @@ border-radius: 10px;
     align-items: center; 
     padding: 10px;
     position: relative;
-
   }
 
 
 .eduCardInfo {
     position: absolute;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white;
+    background-color:rgba(31, 83, 224, 0.89);
+    border-style: solid;
+    border-color:black;
+    
+    border-radius: 10px;
     padding: 10px;
-    opacity: ; /* Start as hidden */
+    color: white;
+    
+    opacity: 0; /* Start as hidden */
     transform: translateY(100%); /* Start below the image */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   
   }
 
