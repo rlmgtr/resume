@@ -70,8 +70,12 @@ margin: 30px
         text-decoration: none;
       }
       
-      .navList a.current {
+      .navList a.active {
         color: rgba(13, 55, 172, 0.822); /* Blue color for the active link */
+        padding: 10px;
+        background-color: white;
+        border-radius: 50px;
+        border-color: whitesmoke;
       }
       
 

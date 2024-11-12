@@ -1,16 +1,85 @@
 .contactIntro {
-    width: 700px;
-    height: 150px;
+    width: 600px;
+    height: 90px;
     border-style: solid;
     padding: 10px;
+    border-radius: 30px;
 
 }
 
 
-.contactinfo {
-border-style: solid;
-padding: 10px;
-height: auto;
-width: auto;
-
+.contactInfo {
+    flex: row;
+    position: grid;
+    place-items: center;
 }
+
+
+.contactItems {
+height: 70px;
+width: 550px;
+padding: 10x;
+margin: 10px;
+
+padding: auto;
+display: flex;
+text-align: center;
+align-items: center;
+position: grid;
+    place-items: center;
+}
+
+
+
+.contactchan {
+    height: 30px;
+    width: 300px ;
+    padding: auto;
+    padding-top: 7px;
+    margin: 10px;
+   
+    width: 300px ;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.904);
+    border-radius: 40px;
+    position: grid;
+    place-items: center;
+    
+}
+
+
+
+
+
+.contactDet {
+    height: 30px;
+    width: 300px ;
+    padding: auto;
+    padding-top: 7px;
+
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: 40px;
+    color: white;
+    background-color: rgba(31, 83, 224, 0.89);
+    position: grid;
+    place-items: center;
+    
+} 
+
+.please {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.contactItems:hover .contactDet {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.contactItems:hover ~ .please {
+    opacity: 1;
+}
+
