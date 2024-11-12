@@ -152,17 +152,27 @@ border-radius: 10px;
     background-color:rgba(31, 83, 224, 0.89);
     border-style: solid;
     border-color:black;
-    
+    font-size: smaller;
     border-radius: 10px;
     padding: 10px;
     color: white;
-    
+    align-items: center; 
     opacity: 0; /* Start as hidden */
     transform: translateY(100%); /* Start below the image */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
     margin-bottom: 5px;
-  
   }
+
+.eduCardInfo li {
+    width: auto;
+    height: auto;
+    border-style: solid;
+    padding: 3px;
+    font-size: small;
+}
+
+
+
 
 .eduCardContainer:hover .eduCardInfo {
     opacity: 1; /* Make the info visible */
