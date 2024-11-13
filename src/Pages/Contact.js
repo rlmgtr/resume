@@ -1,4 +1,5 @@
 import css from './CSS/Contact.css'
+import plz from '../images/Contact/plz.png'
 
 const Contact = () => {
   return (
@@ -36,9 +37,9 @@ const Contact = () => {
 </div>
 
 
-<div className='please'>
-contact me, please?
-</div>
+
+<img src={plz} height={400} width={430} className='plzImg'/>
+
   
 </div>
 

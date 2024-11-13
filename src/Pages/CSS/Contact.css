@@ -69,9 +69,9 @@ position: grid;
     
 } 
 
-.please {
+.plzImg {
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 1.5s ease;
 }
 
 .contactItems:hover .contactDet {
@@ -79,10 +79,15 @@ position: grid;
     transform: translateX(0);
 }
 
-.contactItems:hover ~ .please {
+.contactItems:hover ~ .plzImg {
     opacity: 1;
 }
 
+
+.plzImg { 
+margin-bottom: -25px;
+
+}
 
 
 
