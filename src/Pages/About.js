@@ -1,11 +1,11 @@
 import css from './CSS/About.css';
-import lss from '../images/lss.jpg';
-import educ from '../images/educ.jpg';
-import call from '../images/call.jpg';
-import goit from '../images/goit.jpg';
-import pnu from '../images/pnu.jpg';
-import ntc from '../images/ntc.jpg';
-import cmu from '../images/cmu.jpg';
+import lss from '../images/About/lss.jpg'
+import educ from '../images/About/educ.jpg';
+import call from '../images/About/call.jpg';
+import goit from '../images/About/goit.jpg';
+import pnu from '../images/About/pnu.jpg';
+import ntc from '../images/About/ntc.jpg';
+import cmu from '../images/About/cmu.jpg';
 const About = () => {
   return (
     <div>

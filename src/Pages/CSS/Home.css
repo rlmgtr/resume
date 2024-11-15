@@ -19,20 +19,22 @@
 
 .intro {
  width: 500px;
-    border-style: solid;
+border-style: solid;
  border-top-right-radius: 30px;
  border-bottom-right-radius: 30px;
  border-top-left-radius: 30px;
- padding: 20px;
- font-size: x-large;
+ padding: 15px;
+ font-size: large;
+ color: white;
  margin-bottom: 20px;
+ background-color: rgba(31, 83, 224, 0.89);
 
 } 
 
 
 
 .techs {
-    width: 600px;
+    width: 500px;
     height: 200px;
     border-radius: 10px;
     justify-content: center; /* Center items horizontally */
@@ -62,10 +64,17 @@
     justify-content: center; 
     align-items: center; 
     text-align: center; 
+   
+    
+  
 }
 
 .techImg {
     border-radius: 20px;
+    color:rgba(31, 83, 224, 0.89);
+    background-color: rgba(31, 83, 224, 0.89);
+    border-style: solid;
+    padding: 2px ;
     
 }
 
@@ -75,21 +84,80 @@
     transition: transform 0.2s ease;
 }
 
-
-.quote {
-    margin:10px;
-    display: flex;
+.quoteIntro {
+border-top-right-radius: 30px;
+ border-bottom-right-radius: 30px;
+ border-top-left-radius: 30px;
+ padding: 15px;
+ font-size: large;
+ color: white;
+ margin-bottom: 20px;
+ background-color: rgba(31, 83, 224, 0.89);
+ width: 520px;
 }
 
-.qImg {}
+.quotes {
+    margin:5px;
+    width: 550px;
+    
+   
+}
+
+.quote {
+    margin: 5px;
+    margin-left: 1px;
+    display: flex;
+   
+    width: auto;
+}
+
+.qImgContainer {
+    
+    margin-right: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+
+.qImg{ 
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color:rgba(31, 83, 224, 0.89);
+    border-style: solid;
+    padding: 2px;
+   
+    color:rgba(31, 83, 224, 0.89);
+    background-color: rgba(31, 83, 224, 0.89);
+    
+}
+
+
 
 .qWords {
     transform: translateX(100%);
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 0;
+    width: 500px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: rgba(31, 83, 224, 0.89);
+    color: white;
+    padding: 15px;
+    
 }
 
-.qImg:hover + .qWords {
+.qImgContainer:hover + .qWords {
     transform: translateX(0);
     opacity: 1;
+    
 }
+
+.qImgContainer:hover  {
+transform: rotate(5deg); /* Adjust degrees as needed */
+transition: transform 0.2s ease;
+    
+}
+

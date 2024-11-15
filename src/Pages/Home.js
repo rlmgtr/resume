@@ -8,8 +8,9 @@ import csstyle from '../images/About/csstyle.jpg';
 import html from '../images/About/html.jpg';
 import me from '../images/Home/me.png';
 import me2 from '../images/Home/me2.png';
-
-
+import qImg1 from '../images/Home/qImg1.jpg'
+import qImg2 from '../images/Home/qImg2.jpg'
+import qImg3 from '../images/Home/qImg3.jpg'
 
 
 
@@ -24,7 +25,7 @@ const Home = () => {
 <div className="techs">
 
 
-<div className='intro'>Hey there! My name is Luis, and I'm an aspiring Junior Web Developer. Feel free to browse my portfolio. I made it a bit interactive, so enjoy hovering or clicking most elements if you're on mobile to learn more. Thank you!</div>
+<div className='intro'>Hey there! My name is Luis, I'm an aspiring Junior Web Developer. Feel free to browse my portfolio. I made it a bit interactive, enjoy hovering or clicking most elements if you're on mobile to learn more. Thank you!</div>
 
 <ul className='tech-list'>
 
@@ -32,7 +33,6 @@ const Home = () => {
 <li>
 <div className="tech-item">
 <img src={mongoDB} width={75} height={75} alt='mongoDB' className='techImg'/> 
-
 </div>
 </li>
 
@@ -75,26 +75,25 @@ const Home = () => {
 </li>
 </ul>
 
-<div>
-  When learning how to code,  aside from programming languages I also learned about the following: 
+<div className='quoteIntro'>
+ Aside from learning programming languages I also learned that:
 </div>
 
 <div className='quotes'>
   
   <li className='quote'>
-    <div className='qImg'>image here</div>
+    <div className='qImgContainer'><img src={qImg1} width={70} className='qImg'/></div>
     <div className='qWords'>Continious practice and research are essential elements to be an efficient programmer</div>
-    
   </li>
 
   <li className='quote'>
-  <div className='qImg'>image here</div>
+  <div className='qImgContainer' ><img src={qImg2} width={70} className='qImg'/></div>
   <div className='qWords'>One of the important mindset to learn more is to always acknowledge that you know less</div>
      </li>
 
   <li className='quote'>
-  <div className='qImg'>image here</div>
-  <div className='qWords'>I realize that coding is never easy - But heck! It is really fulfilling</div>
+  <div className='qImgContainer'><img src={qImg3} width={70} className='qImg'/></div>
+  <div className='qWords'>Be aware that coding is never easy - But heck! It is really fulfilling!</div>
   </li>
 
 </div>
