@@ -13,14 +13,13 @@ const Header = () => {
     <div>
       <header className='headerStyle'>
 
- 
+      
        <ul className='headerMenu'>
-          
+
 
        <div className='logo'>{dlogo}</div>
-         
-          <nav className='navList'>
-         
+           <nav className='navList'>
+           
             <li className='menuItem'>
               <NavLink to='/' activeClassName='current'>Home</NavLink>
             </li>
@@ -34,36 +33,24 @@ const Header = () => {
               <NavLink to='/contact' activeClassName='current'>Contact</NavLink>
             </li>
           </nav>
-
-          <div className='hamburger'><img src={hamburgerImg} className='hamburgerImg'/> </div>
         </ul>
 
-        <div>
-        <nav className='navListtest'>
-         
-         <li className='menuItem'>
-           <NavLink to='/' activeClassName='current'>Home</NavLink>
-         </li>
-         <li className='menuItem'>
-           <NavLink to='/about' activeClassName='current'>About</NavLink>
-         </li>
-         <li className='menuItem'>
-           <NavLink to='/portfolio' activeClassName='current'>Portfolio</NavLink>
-         </li>
-         <li className='menuItem'>
-           <NavLink to='/contact' activeClassName='current'>Contact</NavLink>
-         </li>
-       </nav>
-       </div>
-  
 
+
+
+     
+
+        <div className='hamburger'><img src={hamburgerImg} className='hamburgerImg'/> </div>
+
+      
+
+ 
+  
 
       </header>
 
 
 
-
-      
 
 
 
