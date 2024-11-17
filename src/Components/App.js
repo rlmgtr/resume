@@ -10,23 +10,40 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="entirePage">
+    <div className="headerDiv">
       <Router>
         <header className="headerStyle">
           <Header />
         </header>
 
+        
+
        
         <div className="contentStyle">
           <Routes>
-            <Route path="/" element={<Home />} />
+
+           <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </Router>
-      <Footer />
+      <div>
+      <Footer/>
+      </div>
+
+      <div className='menuModal'>
+
+
+
+</div>
+
+
+
+
+
+      
     </div>
   );
 }

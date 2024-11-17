@@ -16,6 +16,8 @@ import qImg3 from '../images/Home/qImg3.jpg'
 
 const Home = () => {
   return (
+<div>
+
     <div className='homeWrapper'>
 
 <div className='meImg'> <img src={me2} height={800} width={600} /></div>
@@ -75,11 +77,13 @@ const Home = () => {
 </li>
 </ul>
 
+
+
+<div className='quotes'>
+
 <div className='quoteIntro'>
  Aside from learning programming languages I also learned that:
 </div>
-
-<div className='quotes'>
   
   <li className='quote'>
     <div className='qImgContainer'><img src={qImg1} width={70} className='qImg'/></div>
@@ -102,7 +106,7 @@ const Home = () => {
   </div>
 
 
-
+  </div>
   </div>
   )
 }
