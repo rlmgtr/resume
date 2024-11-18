@@ -157,92 +157,72 @@
   
   /************************************************************************** Mobile (up to 767px) */
   @media (max-width: 767px) {
-   
-    
     .headerStyle {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      
       width: 100%;
-      height: 100%;
+      height: 60px;
       background-color: rgb(3, 3, 3);
       overflow-x: hidden;
-      position: relative;  /* Add this to help with containment */
+      position: fixed;  /* Ensures relative positioning for absolute positioning of the menu */
     }
-    
-    
-    
-    
+  
     .navList {
-        display: flex;
-        color: white;
-        width: 100%;  /* Ensure it doesn't overflow horizontally */
-        display: none;
-        }   
-
-        
-    .logo {
-       
-            margin-right: 230px;
-            color: white;
+      display: relative;
+      flex-direction: column;
+      position: fixed;
+      top:33px; /* Position the menu directly below the header */
+      right: 60px;
+      width: 20%;
+      background-color: rgba(132, 122, 151, 0.5);
+      color: white;
+      transform: translateX(200%);  /* Initially hide the menu above the header */
+      transition: transform 0.3s ease-in-out;  /* Smooth sliding effect */
+      z-index: 10;  /* Ensure the menu appears above the header */
     }
-        
-
-
-    .hamburgerImg {
-       margin-right: 30px;
-         width: 30px;
-         height: 30px;
-         border-radius: 10px;
-         
-     
-     }
-                
-        .headerMenu {
-            display: flex;
-            list-style: none;
-            
-        }
-        
-      
-        
-        
-     .navList a {
-                font-family: 'Konkhmer Sleokchher', sans-serif;
-                color: white;
-                
-            }
-        
-        
-    .navList a {
-                font-family: 'Konkhmer Sleokchher', sans-serif;
-                color: white;
-                text-decoration: none;
-              }
-              
-            
-
-
-
-              .navs {
-                display: flex;
-            flex-direction: column;  }
-
-
-
-
-
-
-
-
-
-
-
-
-              
+  
+  /* When the menu is open, slide it into view below the header */
+  .headerMenu.is-Open .navList {
+    transform: translateX(0); /* Move the menu down into view */
   }
 
-
-
-
- 
+    .logo {
+      margin-right: 140px;
+      margin-bottom: 30px;
+      color: white;
+      display: fixed;
+    }
+  
+    .hamburgerImg {
+      margin-right: 8px;
+      margin-left: 10px;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+    }
+  
+    .headerMenu {
+      display: absolute;
+      position: relative; /* This keeps the menu container inside the header */
+      margin-right: 50px;
+      
+    }
+  
+    /* When the menu is open, slide it into view below the header */
+    .headerMenu.is-Open .navList {
+      transform: translateY(0); /* Move the menu down into view */
+    }
+  
+    .navList a {
+      font-family: 'Konkhmer Sleokchher', sans-serif;
+      color: red;
+      text-decoration: none;
+      border-style: solid;
+    }
+  
+    .navs {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

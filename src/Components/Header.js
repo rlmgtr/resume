@@ -1,25 +1,29 @@
 import css from './Header.css'
 import { NavLink } from 'react-router-dom'
 import hamburgerImg from '../images/Home/hamburger.jpg'
-
-
-
-
-
-const dlogo = "<lmgtr/>"
+import { useState } from 'react'
 
 const Header = () => {
+  // Move useState inside the component
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen((open) => !open);
+  }
+
+  const dlogo = "<lmgtr/>"
+
   return (
     <div>
       <header className='headerStyle'>
 
-      
-       <ul className='headerMenu'>
+        
 
+        <ul className={`headerMenu ${isOpen ? "is-Open" : ""}`}>
 
-       <div className='logo'>{dlogo}</div>
-           <nav className='navList'>
-           
+        <div className='logo'>{dlogo}</div>
+          
+          <nav className='navList'>
             <li className='menuItem'>
               <NavLink to='/' activeClassName='current'>Home</NavLink>
             </li>
@@ -35,28 +39,13 @@ const Header = () => {
           </nav>
         </ul>
 
-
-
-
-     
-
-        <div className='hamburger'><img src={hamburgerImg} className='hamburgerImg'/> </div>
-
-      
-
- 
-  
+        <div className='hamburger' onClick={toggleMenu}>
+          <img src={hamburgerImg} className='hamburgerImg' />
+        </div>
 
       </header>
-
-
-
-
-
-
-
     </div>
   )
 }
 
-export default Header
+export default Header;
