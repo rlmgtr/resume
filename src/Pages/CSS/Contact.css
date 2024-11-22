@@ -2,8 +2,13 @@
     width: 600px;
     height: 90px;
     border-style: solid;
-    padding: 10px;
-    border-radius: 30px;
+    border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        padding: 15px;
+    background-color: rgba(31, 83, 224, 0.89);
+    color: white;
+    font-size: large;
 
 }
 
@@ -41,8 +46,8 @@ position: grid;
     width: 300px ;
     height: 30px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.904);
-    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.753);
+    border-radius: 10px;
     position: grid;
     place-items: center;
     
@@ -61,7 +66,7 @@ position: grid;
     opacity: 0;
     transform: translateX(-100%);
     transition: opacity 0.3s ease, transform 0.3s ease;
-    border-radius: 40px;
+    border-radius: 10px;
     color: white;
     background-color: rgba(31, 83, 224, 0.89);
     position: grid;
@@ -69,9 +74,11 @@ position: grid;
     
 } 
 
-.plzImg {
+
+
+.plzImgContainer {
     opacity: 0;
-    transition: opacity 1.5s ease;
+    margin-bottom: -30px;
 }
 
 .contactItems:hover .contactDet {
@@ -79,8 +86,9 @@ position: grid;
     transform: translateX(0);
 }
 
-.contactItems:hover ~ .plzImg {
+.contactItems:hover ~ .plzImgContainer {
     opacity: 1;
+    transition: opacity 1.8s ease;
 }
 
 

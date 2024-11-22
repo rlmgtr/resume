@@ -21,10 +21,10 @@ const Header = () => {
 
         <ul className={`headerMenu ${isOpen ? "is-Open" : ""}`}>
 
-        <div className='logo'>{dlogo}</div>
+        <li><div className='logo'>{dlogo}</div></li>
           
           <nav className='navList'>
-            <li className='menuItem'>
+                         <li className='menuItem'>
               <NavLink to='/' activeClassName='current'>Home</NavLink>
             </li>
             <li className='menuItem'>

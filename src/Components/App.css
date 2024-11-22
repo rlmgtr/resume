@@ -80,6 +80,10 @@
  
 }
 
+
+
+
+
 /***************************************************** Mobile (up to 767px) */
 @media (max-width: 767px) {
 
@@ -91,13 +95,10 @@
         background-size: cover; /* Optional, adjusts texture to cover the whole background */
         display: flex;
         flex-direction: column;
+        height: auto;
        
         width: auto;
     }
-    
-    
-   
-    
     
     
     .contentStyle {
@@ -108,12 +109,11 @@
         align-items: center;
         justify-content: center;
         width: auto;
-        max-width: 1200px;
-        margin: 0 auto;
+        height: auto;
+        margin: auto;
         padding: 20px;
         padding-bottom: 50px;
         box-sizing: border-box;
         flex: 1; /* Allows content to expand and push footer down */ }
-       
- 
   }
+

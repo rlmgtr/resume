@@ -7,13 +7,20 @@ import pnu from '../images/About/pnu.jpg';
 import ntc from '../images/About/ntc.jpg';
 import cmu from '../images/About/cmu.jpg';
 const About = () => {
+
+  const workExpH = "{ Work Experiences } ";
+  const EducBack = "{ Education }";
+
+
   return (
-    <div>
+    <div className='aboutWrapper'>
+
+
 
   
 
       <div className='aboutWork'>
-        <div className='aboutTitle'>Work Experiences</div>
+        <div className='aboutTitle'>{workExpH}</div>
 
 
 <div className='workList'>
@@ -25,7 +32,7 @@ const About = () => {
           </div>
 
           <div className='workCardImg'>
-          <img src={lss} width={150} height={150} alt="workimage" className='abtImg'/>
+          <img src={lss} width={180} height={180} alt="workimage" className='abtImg'/>
           </div>
 
           <div className='workCardInfo'>
@@ -45,7 +52,7 @@ const About = () => {
           </div>
 
           <div className='workCardImg'>
-          <img src={educ} width={150} height={150} alt="workimage" className='abtImg'/>
+          <img src={educ} width={180} height={180} alt="workimage" className='abtImg'/>
           </div>
 
           <div className='workCardInfo'>
@@ -64,7 +71,7 @@ const About = () => {
           </div>
 
           <div className='workCardImg'>
-          <img src={call} width={150} height={150} alt="workimage" className='abtImg' />
+          <img src={call} width={180} height={180} alt="workimage" className='abtImg' />
           </div>
 
           <div className='workCardInfo'>
@@ -79,13 +86,13 @@ const About = () => {
 
   <div className='aboutEduc'>
 
-        <div className='aboutTitle'>Education</div>
+        <div className='aboutTitle'>{EducBack}</div>
       
       <div className='educList'>
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={goit} width={150} alt="bsit diploma" className='abtImg'/>
+          <img src={goit} width={190} alt="bsit diploma" className='abtImg'/>
           </div>
 
           <div className="eduCardInfo">
@@ -97,7 +104,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={cmu} width={150} alt="bsit diploma" className='abtImg' />
+          <img src={cmu} width={190} alt="bsit diploma" className='abtImg' />
           </div>
           <div className="eduCardInfo">
           <li>City of Malabon University</li><p></p>
@@ -109,7 +116,7 @@ const About = () => {
         
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={pnu} width={150} alt="bsit diploma" className='abtImg'/>
+          <img src={pnu} width={190} alt="bsit diploma" className='abtImg'/>
           </div>
           <div className="eduCardInfo">
           <li>Philippine Normal University</li><p></p>
@@ -120,7 +127,7 @@ const About = () => {
 
         <div className='eduCardContainer'>
           <div className='eduCardImg' >
-          <img src={ntc} width={150} alt="bsit diploma" className='abtImg'/>
+          <img src={ntc} width={190} alt="bsit diploma" className='abtImg'/>
           </div>
           <div className="eduCardInfo">
           <li>National Teachers College</li><p></p>

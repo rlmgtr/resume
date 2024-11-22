@@ -5,12 +5,9 @@
 
 
 /* Container for centering cards */
-.centerContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh; /* Full viewport height for vertical centering */
+.aboutWrapper {
+    width: auto;
+    height: auto;
 }
 
 .aboutCard {
@@ -45,7 +42,7 @@ border-radius: 10px;
     
     border-radius: 10px;
     display: grid;
-    max-width: 100%;
+    width: auto;
     height: auto;
     background-color: rgba(13, 55, 172, 0.822);
     justify-content: center;
@@ -64,19 +61,18 @@ border-radius: 10px;
     text-align: center;
     justify-content: center;
     place-items: center;
-    border-radius: 12px;
-    width: 150px;
-    height: 50px;
-    padding-top: 5px;
-    margin-top: 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 80px;
     padding: 5px;
     margin-bottom: 2.5px;
     background-color: rgba(31, 83, 224, 0.89);
-    font-size: small;
+    font-size: large;
     color: white;
     line-height: 1.2;
     place-items: center;
-    font-size: smaller;
+    
+    
     
    
 }
@@ -99,6 +95,7 @@ border-radius: 10px;
 .workCardContainer:hover .workCardInfo {
     opacity: 1;
     transform: translateY(0);
+    display: inline-block;
   }  
 
 
@@ -111,13 +108,14 @@ border-radius: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 12px;
-    width: 170px;
-    height: 60px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
     margin-top: 2.5px;
     background-color: rgba(31, 83, 224, 0.89);
     color: white;
-    font-size: smaller;
+    font-size: large;
+    padding: 5px;
   }
 
 
@@ -125,7 +123,7 @@ border-radius: 10px;
     opacity: 1;
     transform: translateY(0);
 }
-/******************************************* EDUC *******************************/
+/************ EDUC *******************************/
 
 
 
@@ -150,9 +148,9 @@ border-radius: 10px;
     background-color:rgba(225, 228, 236, 0.89);
     border-style: solid;
     border-color:rgba(31, 83, 224, 0.89);
-    font-size: smaller;
+    font-size: large;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     color: white;
     align-items: center; 
     opacity: 0; /* Start as hidden */
@@ -162,18 +160,16 @@ border-radius: 10px;
   }
 
 .eduCardInfo li {
-    width: auto;
+    width: 50px;
     height: auto;
     border-style: solid;
-    border-radius: 30px;
-    padding: 4px;
-    font-size: small;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large;
+    
     text-align: center;
     background-color:rgba(31, 83, 224, 0.89);
     line-height: 1.2;
-    
-    
-    
     margin-top:  1px;
     margin-bottom:  1px;
     
@@ -212,3 +208,210 @@ ul, li {
 a {
     color: white;
   }
+
+
+
+   /***************************************************** Mobile (up to 767px) */
+   @media (max-width: 767px) {
+   
+    .aboutWrapper {
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+        
+    .aboutTitle {
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Konkhmer Sleokchher', sans-serif;
+    }
+    
+    .educList, .workList {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin: -10px;
+    }
+    
+    .abtImg {
+    border-radius: 10px;
+    }
+    
+    .eduCardImg, .workCardImg  {
+        
+        border-radius: 10px;
+        display: grid;
+        width: auto;
+        height: auto;
+        background-color: rgba(13, 55, 172, 0.822);
+        justify-content: center;
+        padding: 8px;
+        align-items: center;
+    
+    }
+    
+       /**** WORK *******************************/
+
+    
+    .workCaption {
+        display: grid;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        text-align: center;
+        justify-content: center;
+        place-items: center;
+        border-radius: 10px;
+        width: 200px;
+        height: 80px;
+        padding: 5px;
+        margin-top: -20px;
+        margin-bottom: 2.5px;
+        background-color: rgba(31, 83, 224, 0.89);
+        font-size: large;
+        color: white;
+        line-height: 1.2;
+        place-items: center;
+        
+        
+       
+    }
+    
+    .workCard li {
+        flex-grow: 1; /* Allows items to grow and occupy available space */
+        text-align: center; /* Centers text inside each list item */
+    }
+    
+    .workCardContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;   
+        align-items: center; 
+        padding: 10px;
+        width: auto;
+    }
+    
+    .workCardContainer:hover .workCardInfo {
+        opacity: 1;
+        transform: translateY(0);
+      }  
+    
+    
+    .workCardInfo {
+        display: grid;
+        place-items: center;
+        opacity: 0;
+        transform: translateY(-30px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        width: 200px;
+        height: 100px;
+        margin-top: 2.5px;
+        margin-bottom: -50px;
+        background-color: rgba(31, 83, 224, 0.89);
+        color: white;
+        font-size: large;
+        padding: 5px;
+      }
+    
+    
+      .workCardContainer:hover .workCaption {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    /************ EDUC *******************************/
+    
+    .eduCardContainer {
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;   
+        align-items: center; 
+        padding: 10px;
+        position: relative;
+      }
+    
+    .eduCardInfo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color:rgba(225, 228, 236, 0.89);
+        border-style: solid;
+        border-color:rgba(31, 83, 224, 0.89);
+        font-size: large;
+        border-radius: 10px;
+        padding: 5px;
+        color: white;
+        align-items: center; 
+        opacity: 0; /* Start as hidden */
+        transform: translateY(100%); /* Start below the image */
+        transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+        margin-bottom: 5px;
+      }
+    
+    .eduCardInfo li {
+        width: auto;
+        height: auto;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: large;
+        
+        text-align: center;
+        background-color:rgba(31, 83, 224, 0.89);
+        line-height: 1.2;
+        margin-top:  1px;
+        margin-bottom:  1px;
+        
+    }
+    
+    
+    
+    
+    .eduCardContainer:hover .eduCardInfo {
+        opacity: 1; /* Make the info visible */
+      transform: translateY(0); /* Move the info upwards to cover the image */
+      }  
+    
+    
+      .eduCardContainer:hover .eduCardInfo {
+        opacity: 1; /* Make the info visible */
+        transform: translateY(0); /* Move the info upwards to cover the image */
+      }
+    
+    
+    
+    .educCard li {
+        flex-grow: 1; /* Allows items to grow and occupy available space */
+        text-align: center; /* Centers text inside each list item */
+    }
+    
+    /* Optional reset for lists */
+    ul, li {
+        list-style: none;    
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    a {
+        color: white;
+      }
+
+
+
+
+
+
+
+   }

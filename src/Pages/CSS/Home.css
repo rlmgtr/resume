@@ -13,7 +13,8 @@
     /* Desktop (1200px and up) */
 @media (min-width: 1200px) {
     .meImg {
-        margin-bottom: -30px;
+        margin-bottom: -55px;
+      position: relative;
        
     }
 
@@ -55,10 +56,9 @@
        }
        
        .tech-item {
-           width: 60px;
-           height: 60px;
-           border-radius: 10px;
-           border: 2px solid black; 
+           width: auto;
+           height: auto;
+           
            margin: 15px; /* Space between items */
            display: flex; 
            justify-content: center; 
@@ -70,7 +70,7 @@
        }
        
        .techImg {
-           border-radius: 20px;
+           border-radius: 1px;
            color:rgba(31, 83, 224, 0.89);
            background-color: rgba(31, 83, 224, 0.89);
            border-style: solid;
@@ -117,6 +117,7 @@
            border-top-right-radius: 30px;
            border-bottom-right-radius: 30px;
            border-top-left-radius: 30px;
+           margin-bottom: 20;
            
        }
        
@@ -127,7 +128,7 @@
            color:rgba(31, 83, 224, 0.89);
            border-style: solid;
            padding: 2px;
-          
+          margin-bottom: 0px;
            color:rgba(31, 83, 224, 0.89);
            background-color: rgba(31, 83, 224, 0.89);
            
@@ -146,6 +147,7 @@
            background-color: rgba(31, 83, 224, 0.89);
            color: white;
            padding: 15px;
+           font-size: large;
            
        }
        
@@ -222,7 +224,7 @@
        }
        
        .techImg {
-           border-radius: 20px;
+           border-radius: 10px;
            color:rgba(31, 83, 224, 0.89);
            background-color: rgba(31, 83, 224, 0.89);
            border-style: solid;
@@ -325,7 +327,7 @@
         align-items: center;
         padding: 0;
         height: auto;
-        width: 300px;
+        width: auto; /**300**/
         margin: 0;
         overflow-x: hidden;
        
@@ -333,11 +335,7 @@
     }
     
     
-    
-    
-    
-    
-    
+   
     .meImg {
       content: url(./css-images/meMobile.png);
       height: 30px;
@@ -349,7 +347,7 @@
 
 
     .intro {
-        width: 250px;
+        width: 300px;
        border-style: solid;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
@@ -357,7 +355,7 @@
         padding: 15px;
         font-size: small;
         color: white;
-        margin: 40px;
+        margin-top: 100px;
         background-color: rgba(31, 83, 224, 0.89);
        
        } 
@@ -367,7 +365,7 @@
        .techs {
            width: 350px;
            height: auto;
-           margin: 40px;
+           margin: 0px;
            border-radius: 10px;
            justify-content: center; /* Center items horizontally */
            align-items: center; /* Center items vertically */
@@ -379,6 +377,7 @@
            display: flex;
            flex-direction: row;
            flex-wrap: wrap;
+           padding: 0%;
            justify-content: center; /* Center items in the list */
            align-items: center; /* Center items vertically */
            padding: 0; /* Remove any default padding */
@@ -389,7 +388,6 @@
        .tech-item {
            width: 60px;
            height: 60px;
-           
            margin: 15px; /* Space between items */
            display: flex; 
            justify-content: center; 
@@ -401,7 +399,7 @@
        }
        
        .techImg {
-           border-radius: 20px;
+           border-radius: 10px;
            color:rgba(31, 83, 224, 0.89);
            background-color: rgba(31, 83, 224, 0.89);
            border-style: solid;
@@ -418,19 +416,20 @@
        }
        
        .quoteIntro {
-       border-top-right-radius: 30px;
+        width: 300px;
+       border-style: solid;
+        border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
         border-top-left-radius: 30px;
-        padding: 10px;
+        padding: 15px;
         font-size: small;
         color: white;
-        margin-bottom: 20px;
+    
         background-color: rgba(31, 83, 224, 0.89);
-        width: 250px;
        }
        
        .quotes {
-           margin: 30px;
+           margin: 10px;
            width: auto;
            padding: auto;
            
@@ -460,7 +459,7 @@
            color:rgba(31, 83, 224, 0.89);
            border-style: solid;
            padding: 2px;
-           margin: 10px;
+           margin: 5px;
            color:rgba(31, 83, 224, 0.89);
            background-color: rgba(31, 83, 224, 0.89);
            width: 50px;
