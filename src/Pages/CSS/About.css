@@ -160,7 +160,7 @@ border-radius: 10px;
   }
 
 .eduCardInfo li {
-    width: 50px;
+    width: auto;
     height: auto;
     border-style: solid;
     border-radius: 10px;
@@ -244,7 +244,7 @@ a {
         
         border-radius: 10px;
         display: grid;
-        width: auto;
+        max-width: auto;
         height: auto;
         background-color: rgba(13, 55, 172, 0.822);
         justify-content: center;
