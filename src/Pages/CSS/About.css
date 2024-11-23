@@ -1,4 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/konkhmer-sleokchher');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
 
 
 
@@ -24,14 +25,24 @@
 .aboutTitle {
     font-size: 30px;
     text-align: center;
-    font-family: 'Konkhmer Sleokchher', sans-serif;
+    font-family: "Geist Mono", monospace;
+    font-weight: bold;
 }
 
-.educList, .workList {
+.educList {
     display: flex;
     flex-direction: row;
     justify-content: center; 
     margin: auto;
+    margin-bottom: 80px;
+}
+
+.workList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin: auto;
+    margin-bottom: 0px;
 }
 
 .abtImg {
@@ -46,7 +57,7 @@ border-radius: 10px;
     height: auto;
     background-color: rgba(13, 55, 172, 0.822);
     justify-content: center;
-    padding: 8px;
+    padding: 10px;
     align-items: center;
 
 }
@@ -71,6 +82,7 @@ border-radius: 10px;
     color: white;
     line-height: 1.2;
     place-items: center;
+    margin-top: -70px;
     
     
     
@@ -111,7 +123,7 @@ border-radius: 10px;
     border-radius: 10px;
     width: 200px;
     height: 100px;
-    margin-top: 2.5px;
+    margin: 2.5px; /* Add spacing around the element */
     background-color: rgba(31, 83, 224, 0.89);
     color: white;
     font-size: large;
@@ -136,6 +148,7 @@ border-radius: 10px;
     align-items: center; 
     padding: 10px;
     position: relative;
+     
   }
 
 
@@ -153,7 +166,7 @@ border-radius: 10px;
     padding: 5px;
     color: white;
     align-items: center; 
-    opacity: 0; /* Start as hidden */
+   opacity: 0;
     transform: translateY(100%); /* Start below the image */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
     margin-bottom: 5px;
@@ -240,7 +253,7 @@ a {
     border-radius: 10px;
     }
     
-    .eduCardImg, .workCardImg  {
+    .workCardImg  {
         
         border-radius: 10px;
         display: grid;
@@ -248,14 +261,30 @@ a {
         height: auto;
         background-color: rgba(13, 55, 172, 0.822);
         justify-content: center;
-        padding: 8px;
+        padding: 5px;
         align-items: center;
     
     }
     
+
+   
+
+
+
+
+
+
+
+
        /**** WORK *******************************/
 
-    
+    .aboutEduc {
+        
+        align-content: center;
+        align-items: center;
+    }
+
+
     .workCaption {
         display: grid;
         opacity: 0;
@@ -268,7 +297,7 @@ a {
         width: 200px;
         height: 80px;
         padding: 5px;
-        margin-top: -20px;
+        margin-top: -80px;
         margin-bottom: 2.5px;
         background-color: rgba(31, 83, 224, 0.89);
         font-size: large;
@@ -314,7 +343,7 @@ a {
         width: 200px;
         height: 100px;
         margin-top: 2.5px;
-        margin-bottom: -50px;
+        margin-bottom: -70px;
         background-color: rgba(31, 83, 224, 0.89);
         color: white;
         font-size: large;
@@ -332,24 +361,23 @@ a {
         display: inline-block;
         flex-direction: column;
         justify-content: center;
-        margin: 20px;   
+        margin: auto;
+        margin-top: 20px;   
         align-items: center; 
-        padding: 10px;
-        position: relative;
+        padding: 0px;
+        position: block;
       }
     
     .eduCardInfo {
         position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+        place-content: center;
         background-color:rgba(225, 228, 236, 0.89);
         border-style: solid;
         border-color:rgba(31, 83, 224, 0.89);
-        font-size: large;
+        width: 200px;
+        height: auto;
         border-radius: 10px;
-        padding: 5px;
+        padding: auto;
         color: white;
         align-items: center; 
         opacity: 0; /* Start as hidden */
@@ -364,13 +392,13 @@ a {
         border-style: solid;
         border-radius: 10px;
         padding: 5px;
-        font-size: large;
-        
+        font-size: medium;
+        margin: auto;
         text-align: center;
         background-color:rgba(31, 83, 224, 0.89);
         line-height: 1.2;
-        margin-top:  1px;
-        margin-bottom:  1px;
+        
+      
         
     }
     
@@ -409,9 +437,17 @@ a {
       }
 
 
-
-
-
-
+      .eduCardImg {
+        border-radius: 10px;
+        display: grid;
+        width: 190px;
+        height: auto;
+        background-color: rgba(13, 55, 172, 0.822);
+        justify-content: center;
+        padding: 10px;
+        padding-left: 10px;
+        align-items: center;
+    
+        }
 
    }

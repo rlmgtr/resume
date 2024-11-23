@@ -3,11 +3,11 @@
     @media (min-width: 1200px) {
 
         .footerStyle {
-            display:flex;
+            display: flex;
             width: 100%;
             background-color: #00001c;
             padding: 0;
-            height: 100%;
+            margin-top: auto; /* Ensure it's pushed to the bottom */
             
         }
         
