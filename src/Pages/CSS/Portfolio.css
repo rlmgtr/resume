@@ -116,3 +116,43 @@ padding: 1px;
   border-style: solid;
   color: white;
 }
+
+  /***************************************************** Tablet (768px to 1199px) */
+  @media (min-width: 768px) and (max-width: 1199px) {
+   
+  }
+
+
+
+  /***************************************************** Mobile (up to 767px) */
+  @media (max-width: 767px) {
+
+.portfolioStyle {
+  margin-top: 90px;
+}
+
+
+    
+.projImg {
+  width: 320px;
+  height: 180px;
+  
+}
+
+.projNameAndTech {
+  width: 310px;
+  height: 50px;
+
+}
+
+.projInfo {
+  width: 310px;
+  height: 80px;
+
+}
+
+
+
+
+   
+  }

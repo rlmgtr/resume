@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="headerDiv">
+    <div className="entirePage">
       <Router>
         <header className="headerStyle">
           <Header />
@@ -29,7 +29,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <div>
+      <div className='footerStyle'>
       <Footer/>
       </div>
 

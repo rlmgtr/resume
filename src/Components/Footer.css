@@ -4,10 +4,12 @@
 
         .footerStyle {
             display: flex;
-            width: 100%;
-            background-color: #00001c;
-            padding: 0;
-            margin-top: auto; /* Ensure it's pushed to the bottom */
+    width: 100%; /* Make footer span the full width */
+    background-color: #00001c;
+    padding: 0;
+    margin-top: auto; /* Ensure it's pushed to the bottom */
+    
+    height: auto; /* Adjust height based on content */
             
         }
         
@@ -15,7 +17,7 @@
         .socials {
         color: white;
         border-style: solid;
-            border-color: blue;
+        border-color: blue;
         }
     
     }
@@ -47,9 +49,9 @@ border-style: solid;
 .footerStyle {
     display:flex;
     width: 100%;
+    height: 100%;
     background-color: #00001c;
     padding: 0;
-    height: 100%;
     overflow-x: hidden;
     
 }
@@ -58,7 +60,7 @@ border-style: solid;
 .socials {
 color: white;
 border-style: solid;
-    border-color: blue;
+border-color: blue;
 }
      
       }

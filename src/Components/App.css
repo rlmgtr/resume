@@ -6,7 +6,7 @@
     .entirePage {
         background-color: #f5f5f5; /* Base color */
         background-image: url('./bgTestImg.jpg'); /* Texture image */
-        background-repeat: repeat; /* Ensures the texture tiles if it's small */
+       
         background-size: cover; /* Optional, adjusts texture to cover the whole background */
         display: flex;
         flex-direction: column;
@@ -44,12 +44,12 @@
 @media (min-width: 768px) and (max-width: 1199px) {
 
     .entirePage {
-    background-color: #f5f5f5; /* Base color */
-    background-image: url('./bgTestImg.jpg'); /* Texture image */
-    background-repeat: repeat; /* Ensures the texture tiles if it's small */
-    background-size: cover; /* Optional, adjusts texture to cover the whole background */
-    display: flex;
-    flex-direction: column;
+        background-color: #f5f5f5; /* Base color */
+        background-image: url('./bgTestImg.jpg'); /* Texture image */
+        background-repeat: repeat; /* Ensures the texture tiles if it's small */
+        background-size: cover; /* Optional, adjusts texture to cover the whole background */
+        display: flex;
+        flex-direction: column;
 }
 
 
@@ -91,13 +91,11 @@
     .entirePage {
         background-color: #f5f5f5; /* Base color */
         background-image: url('./bgTestImg.jpg'); /* Texture image */
-        background-repeat: repeat; /* Ensures the texture tiles if it's small */
+        
         background-size: cover; /* Optional, adjusts texture to cover the whole background */
-        display: flex;
+        
         flex-direction: column;
-        height: auto;
-       
-        width: auto;
+        
     }
     
     
@@ -114,6 +112,13 @@
         padding: 20px;
         padding-bottom: 50px;
         box-sizing: border-box;
-        flex: 1; /* Allows content to expand and push footer down */ }
+        flex: 1; /* Allows content to expand and push footer down */
+        margin-bottom: 0;  /* Remove any margin that could push footer down */
+        padding-bottom: 0; /* Remove padding if present */
+    
+    
+    
+    
+    }
   }
 

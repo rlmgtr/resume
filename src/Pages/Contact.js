@@ -3,7 +3,7 @@ import plz from '../images/Contact/plz.png'
 
 const Contact = () => {
   return (
-<div>
+<div className='contactStyle'>
 
 
    <div className="contactIntro">
