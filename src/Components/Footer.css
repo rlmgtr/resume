@@ -3,6 +3,7 @@
     @media (min-width: 1200px) {
 
         .footerStyle {
+            margin-top: auto;
             display: flex;
             width: 100%; /* Make footer span the full width */
             height: auto; /* Adjust height based on content */
