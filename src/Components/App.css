@@ -4,12 +4,22 @@
 @media (min-width: 1200px) {
 
     .entirePage {
-        background-color: #f5f5f5; /* Base color */
-        background-image: url('./bgTestImg.jpg'); /* Texture image */
-       
-        background-size: cover; /* Optional, adjusts texture to cover the whole background */
+        position: relative; /* Required for the pseudo-element */
+        background-color: #b0b1e799; /* Fallback color */
+      background-image: url(./bgImg.jpg);
+        background-size: 100% 100%; /* Ensures the image covers the entire container */
+        
+        background-position: 0%;
+        background-repeat: repeat-x; /* Prevents tiling */
         display: flex;
         flex-direction: column;
+        height: 100vh; /* Full viewport height */
+        width: 100%; /* Full viewport width */
+        margin: 0; /* Removes any default margins */
+        padding: 0; /* Removes any default padding */
+        display: flex;
+        min-height: 100vh; /* Ensure full height */
+    margin: 0;
     }
     
     
@@ -45,7 +55,7 @@
 
     .entirePage {
         background-color: #f5f5f5; /* Base color */
-        background-image: url('./bgTestImg.jpg'); /* Texture image */
+        background-image: url(./bgImg.jpg);
         background-repeat: repeat; /* Ensures the texture tiles if it's small */
         background-size: cover; /* Optional, adjusts texture to cover the whole background */
         display: flex;
@@ -89,9 +99,9 @@
 
 
     .entirePage {
-        background-color: #f5f5f5; /* Base color */
-        background-image: url('./bgTestImg.jpg'); /* Texture image */
-        
+        background-color: #0307fa65; /* Base color */
+       
+        background-image: url(./bgImg.jpg);
         background-size: cover; /* Optional, adjusts texture to cover the whole background */
         
         flex-direction: column;

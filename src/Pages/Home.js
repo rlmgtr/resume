@@ -20,7 +20,8 @@ const Home = () => {
 
     <div className='homeWrapper'>
 
-<div className='meImg'> <img src={me2} height={800} width={600} /></div>
+<div className='meImg'> <img src={me2} height={550} width={400} />
+<div className='meImgUnder'></div></div>
 
 
 
@@ -76,10 +77,9 @@ const Home = () => {
 </div>
 </li>
 </ul>
-
-
-
-<div className='quotes'>
+  </div>
+  
+  <div className='quotes'>
 
 <div className='quoteIntro'>
  Aside from learning programming languages I also learned that:
@@ -101,10 +101,6 @@ const Home = () => {
   </li>
 
 </div>
-
-
-  </div>
-
 
   </div>
   </div>

@@ -2,7 +2,7 @@ import css from './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footerStyle'>
+    <div>
       
 
         <ul className='socials'>

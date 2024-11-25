@@ -4,12 +4,14 @@
 
         .footerStyle {
             display: flex;
-    width: 100%; /* Make footer span the full width */
-    background-color: #00001c;
-    padding: 0;
-    margin-top: auto; /* Ensure it's pushed to the bottom */
+            width: 100%; /* Make footer span the full width */
+            height: auto; /* Adjust height based on content */
+            background-color: #00001c;
+            
+            padding: 0;
+            margin-top: auto; /* Pushes footer to the bottom */
     
-    height: auto; /* Adjust height based on content */
+    
             
         }
         

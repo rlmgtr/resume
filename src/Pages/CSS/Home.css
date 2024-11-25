@@ -13,9 +13,22 @@
     /* Desktop (1200px and up) */
 @media (min-width: 1200px) {
     .meImg {
-        margin-bottom: -55px;
-      position: relative;
+        height: 20px;
+      margin: 10px;
+      position: inherit;
+    
+       padding: 0;
+       padding-bottom: 0;
        
+    }
+
+    .meImgUnder {
+        margin-top: -5px;
+        height: 30px;
+        background-color: rgba(31, 83, 224, 0.89); ;
+        border-style: solid;
+        border-color: white;
+        border-radius: 20px;
     }
 
     .intro {
@@ -35,16 +48,18 @@
        
        
        .techs {
-           width: 500px;
-           height: 200px;
+           width: auto;
+           height: auto;
            border-radius: 10px;
            justify-content: center; /* Center items horizontally */
            align-items: center; /* Center items vertically */
-           margin-top: 80px;
-           margin-left: 10px;
+           margin: 10px;
+           margin-top: 70px;
+           
        }
        
        .tech-list {
+       
            display: flex;
            flex-direction: row;
            flex-wrap: wrap;
@@ -83,6 +98,14 @@
            transform: rotate(15deg); /* Adjust degrees as needed */
            transition: transform 0.2s ease;
        }
+
+       .quotes {
+       height: 400px;
+        margin: 10px;
+        margin-top: 100px;
+        
+       
+    }
        
        .quoteIntro {
        border-top-right-radius: 30px;
@@ -91,17 +114,13 @@
         padding: 15px;
         font-size: large;
         color: white;
+        border-style: solid;
         margin-bottom: 20px;
         background-color: rgba(31, 83, 224, 0.89);
         width: 520px;
        }
        
-       .quotes {
-           margin:5px;
-           width: 550px;
-           
-          
-       }
+       
        
        .quote {
            margin: 5px;
@@ -144,6 +163,8 @@
            border-top-right-radius: 30px;
            border-bottom-right-radius: 30px;
            border-top-left-radius: 30px;
+           border-style: solid;
+           border-bottom: white;
            background-color: rgba(31, 83, 224, 0.89);
            color: white;
            padding: 15px;
@@ -341,6 +362,8 @@
       height: 30px;
       width: 30px;
       display: none;
+      margin-bottom: 0%;
+     
    
     }
 
