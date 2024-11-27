@@ -8,8 +8,7 @@ import ntc from '../images/About/ntc.jpg';
 import cmu from '../images/About/cmu.jpg';
 const About = () => {
 
-  const workExpH = "{ Work Experiences } ";
-  const EducBack = "{ Education }";
+
 
 
   return (
@@ -20,7 +19,7 @@ const About = () => {
   
 
       <div className='aboutWork'>
-        <div className='aboutTitle'>{workExpH}</div>
+        <div className='aboutTitle'>Work Experiences</div>
 
 
 <div className='workList'>
@@ -86,7 +85,7 @@ const About = () => {
 
   <div className='aboutEduc'>
 
-        <div className='aboutTitle'>{EducBack}</div>
+        <div className='aboutTitle'>Education</div>
       
       <div className='educList'>
 

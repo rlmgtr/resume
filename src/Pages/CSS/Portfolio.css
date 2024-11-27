@@ -3,6 +3,12 @@
   height: 100%;
 }
 
+.portHeader {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Geist Mono", monospace;
+  font-weight: bold;
+}
 
 .classProjects {
   display: flex;
@@ -89,8 +95,8 @@ padding: 1px;
   border-style: solid;
   text-align: center;
   opacity: 0;
-  font-size: large;
-  height: 50px;
+  font-size: medium;
+  height: 70px;
   width: 356px;
  padding: 5px;
  background-color:rgba(31, 83, 224, 0.89);
@@ -115,6 +121,17 @@ padding: 1px;
   border-radius: 3px;
   border-style: solid;
   color: white;
+
+}
+
+.seeProjLink {
+  padding: 10px;
+  background-color: rgba(31, 83, 224, 0.89); ;
+  margin-top: -50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  display: none;
 }
 
   /***************************************************** Tablet (768px to 1199px) */
