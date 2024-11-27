@@ -24,7 +24,7 @@ const Home = () => {
 <div className='meImgUnder'></div></div>
 
 
-
+<div className='techandQuotes'>
 <div className="techs">
 
 
@@ -101,7 +101,7 @@ const Home = () => {
   </li>
 
 </div>
-
+</div>
   </div>
   </div>
   )

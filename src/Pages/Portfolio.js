@@ -31,7 +31,7 @@ const Porftolio = () => {
 <img src={webStudio}  className='projImg' width={360} height={210} alt="sample image"/> 
 
 </div> 
-<div className='projInfo'>My first HTML & CSS project. Its responsive and simple. <a href="link">See Project</a></div>
+<div className='projInfo'>My first HTML & CSS project. Its responsive and simple. <a href="https://rlmgtr.github.io/goit-markup-hw-07/" target='_blank'>See Project</a></div>
 
 </div>
 
@@ -48,7 +48,7 @@ const Porftolio = () => {
 <img src={weaApp}  className='projImg' width={360} height={210} alt="sample image"/> 
 
 </div> 
-<div className='projInfo'>This is a group project. An application accessble to web browsers that let the users check current and 5-day weather forecast. <a href="link">See Project</a></div>
+<div className='projInfo'>This is a group project. An application accessble to web browsers that let the users check current and 5-day weather forecast. <a href="https://rlmgtr.github.io/GoIT-JS-teamProject-WeatherAPP-Group3/" target="_blank" >See Project</a></div>
 
 </div>
 
@@ -65,7 +65,7 @@ const Porftolio = () => {
 <img src={expTracker}  className='projImg' width={360} height={210} alt="sample image"/> 
 
 </div> 
-<div className='projInfo'>A challenging proejct for me. This website allows the user to create an account monitor expenses. <a href="link">See Project</a></div>
+<div className='projInfo'>A challenging proejct for me. This website allows the user to create an account monitor expenses. <a href="https://logarithms17.github.io/slim-mom-fullstack/calculator" target='_blank'>See Project</a></div>
 
 </div>
 
@@ -81,7 +81,7 @@ const Porftolio = () => {
 <img src={slimMom}  className='projImg' width={360} height={210} alt="sample image"/> 
 
 </div> 
-<div className='projInfo'>This is another group project. A web-based app made especially for moms who wish to work out and monitor their diet and weight. <a href="link">See Project</a></div>
+<div className='projInfo'>This is another group project. A web-based app made especially for moms who wish to work out and monitor their diet and weight. <a href="https://logarithms17.github.io/slim-mom-fullstack/calculator" target="_blank">See Project</a></div>
 
 </div>
 

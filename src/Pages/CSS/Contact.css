@@ -50,6 +50,8 @@ position: grid;
     border-radius: 10px;
     position: grid;
     place-items: center;
+    border-style: solid;
+    border-color: rgba(31, 83, 224, 0.89);
     
 }
 
@@ -69,6 +71,8 @@ position: grid;
     border-radius: 10px;
     color: white;
     background-color: rgba(31, 83, 224, 0.89);
+    border-style: solid;
+    border-color: black;
     position: grid;
     place-items: center;
     
