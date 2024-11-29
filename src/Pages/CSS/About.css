@@ -242,6 +242,9 @@ a {
         height: auto;
         margin: 0;
         overflow-x: hidden;
+        align-items: center;
+        align-content: center;
+        
     }
 
         
@@ -275,12 +278,6 @@ a {
     
 
 }
-
-
-
-
-
-
 
 
        /**** WORK *******************************/
@@ -325,7 +322,9 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 20px;   
+        margin: 5px;   
+        margin-top: 20px;
+        margin-bottom: 50px;
         align-items: center; 
         padding: 10px;
         width: auto;
@@ -367,10 +366,14 @@ a {
     
     .educList {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        width: 700px;
+        height: auto;
         justify-content: center; 
-        margin: -10px;
-        border-style: solid;
+        margin-top: 20px;
+        
+        align-items: center;
+        align-self: center;
     
     }
     
@@ -382,7 +385,7 @@ a {
         flex-direction: column;
         justify-content: center;
         margin: auto;
-        margin-top: 20px;   
+        margin: 40px;  
         align-items: center; 
         padding: 0px;
         position: block;
