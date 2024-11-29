@@ -11,6 +11,8 @@
             
             padding: 0;
             margin-top: auto; /* Pushes footer to the bottom */
+            justify-content: right; /* Space between content, pushing socials to the right */
+            align-items: center; /* Vertically center the items */
     
     
             
@@ -19,8 +21,9 @@
         
         .socials {
         color: white;
-        border-style: solid;
-        border-color: blue;
+        margin-right: 20px;
+        font-size: xx-small;
+        font-style: italic;
         }
     
     }
