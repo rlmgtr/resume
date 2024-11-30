@@ -17,11 +17,11 @@ const Header = () => {
     <div>
       <header className='headerStyle'>
 
-        
+      <li><div className='logo'>{dlogo}</div></li>
 
         <ul className={`headerMenu ${isOpen ? "is-Open" : ""}`}>
 
-        <li><div className='logo'>{dlogo}</div></li>
+        
           
           <nav className='navList'>
                          <li className='menuItem'>

@@ -24,7 +24,7 @@
 height: 70px;
 width: 550px;
 padding: 10x;
-margin: 10px;
+margin: 40px;
 
 padding: auto;
 display: flex;
@@ -40,12 +40,10 @@ position: grid;
     height: 30px;
     width: 300px ;
     padding: auto;
-    padding-top: 7px;
+    padding: 5px;
     margin: 10px;
-   
-    width: 300px ;
-    height: 30px;
-    color: white;
+   font-size: medium;
+   color: white;
     background-color: rgba(0, 0, 0, 0.753);
     border-radius: 10px;
     position: grid;
@@ -60,10 +58,10 @@ position: grid;
 
 
 .contactDet {
-    height: 30px;
     width: 300px ;
-    padding: auto;
-    padding-top: 7px;
+    height: 30px;
+    padding: 10px;
+    
 
     opacity: 0;
     transform: translateX(-100%);
@@ -127,7 +125,8 @@ margin-bottom: -25px;
     .contactIntro {
 margin: auto;
         width: 300px;
-        height: 200px;
+        height: auto;
+        font-size: medium;
         
 
 
@@ -139,10 +138,10 @@ margin: auto;
     .contactItems {
         height: 70px;
         width: 550px;
-        padding: 10x;
-        margin: 10px;
+       
+        margin: 30px;
         
-        padding: auto;
+        padding: 2px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -153,9 +152,9 @@ margin: auto;
 
     .contactDet {
         height: 30px;
-        width: 300px ;
+        width: 290px ;
         padding: auto;
-        padding-top: 7px;
+     margin-top: 2px;
     
         opacity: 0;
         transform: translateY(-100%);
