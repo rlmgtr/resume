@@ -7,21 +7,25 @@
 
  /************************************************************************* Desktop (1200px and up) */
  @media (min-width: 1200px) {
-    .navList {
+    
+  .headerStyle {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(3, 3, 3);
+}
+  
+  
+  .navList {
         display: flex;
         color: white;
         display: none;
         }   
 
 
-        .headerStyle {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 80px;
-            background-color: rgb(3, 3, 3);
-        }
+       
         
         
         .navList {

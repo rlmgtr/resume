@@ -1,8 +1,11 @@
 .portfolioStyle {
   width: 100%;
   height: 100%;
-  align-items: center;
   
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .portHeader {
@@ -15,11 +18,13 @@
 .classProjects {
   display: flex;
   flex-direction: row;
-  
+  align-self: center;
   width: 100%;
   height: 100%;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+
+
 
   
 }
@@ -27,9 +32,9 @@
 .projectCard {
   justify-items: center;
   justify-content: center;
-  align-items: center;
+ 
   padding: 5px;
-  margin: 2px;
+  margin: 50px;
   margin-top: 10px;
   width: auto;
   height: auto;

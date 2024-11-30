@@ -3,20 +3,15 @@
     @media (min-width: 1200px) {
 
         .footerStyle {
-            margin-top: auto;
             display: flex;
-            width: 100%; /* Make footer span the full width */
-            height: auto; /* Adjust height based on content */
+            justify-content: flex-end; /* Aligns content to the right */
+            align-items: center; /* Vertically center content */
             background-color: #00001c;
-            
-            padding: 0;
+            padding: 5px;
+            width: 100%; /* Full width */
+            background-color: #00001c; /* Footer background color */
             margin-top: auto; /* Pushes footer to the bottom */
-            justify-content: right; /* Space between content, pushing socials to the right */
-            align-items: center; /* Vertically center the items */
-    
-    
-            
-        }
+          }
         
         
         .socials {
@@ -56,7 +51,7 @@
 .footerStyle {
     display:flex;
     width: 100%;
-    height: 100%;
+    height: 20%;
     background-color: #00001c;
     padding: 0;
     overflow-x: hidden;

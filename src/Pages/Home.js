@@ -20,7 +20,7 @@ const Home = () => {
 
     <div className='homeWrapper'>
 
-<div className='meImg'> <img src={me2} height={650} width={500} />
+<div className='meImg'> <img src={me2} height={650} width={500} className='homeImg'/>
 </div>
 
 
@@ -35,45 +35,45 @@ const Home = () => {
 
 <li>
 <div className="tech-item">
-<img src={mongoDB} width={75} height={75} alt='mongoDB' className='techImg'/> 
+<img src={mongoDB} width={60} height={60} alt='mongoDB' className='techImg'/> 
 </div>
 </li>
 
 <li>
 <div className="tech-item">    
-<img src={expressJS} width={75} height={75} alt='expressJS' className='techImg'/> 
+<img src={expressJS} width={60} height={60} alt='expressJS' className='techImg'/> 
 </div>
 </li>
 
 <li>
 <div className="tech-item">
-<img src={reactJS} width={75} height={75} alt='reactJS' className='techImg'/> 
+<img src={reactJS} width={60} height={60} alt='reactJS' className='techImg'/> 
 </div>
 </li>
 
 <li>
 <div className="tech-item">
-<img src={nodeJS} width={75} height={75} alt='nodeJS' className='techImg'/> 
-</div>
-</li>
-
-
-<li>
-<div className="tech-item">
-<img src={js} width={75} height={75} alt='JS' className='techImg'/> 
-</div>
-</li>
-
-<li>
-<div className="tech-item">
-<img src={csstyle} width={75} height={75} alt='CSS' className='techImg'/> 
+<img src={nodeJS} width={60} height={60} alt='nodeJS' className='techImg'/> 
 </div>
 </li>
 
 
 <li>
 <div className="tech-item">
-<img src={html} width={75} height={75} alt='html' className='techImg'/> 
+<img src={js} width={60} height={60} alt='JS' className='techImg'/> 
+</div>
+</li>
+
+<li>
+<div className="tech-item">
+<img src={csstyle} width={60} height={60} alt='CSS' className='techImg'/> 
+</div>
+</li>
+
+
+<li>
+<div className="tech-item">
+<img src={html} width={60} height={60} alt='html' className='techImg'/> 
 </div>
 </li>
 </ul>
@@ -82,22 +82,22 @@ const Home = () => {
   <div className='quotes'>
 
 <div className='quoteIntro'>
- Aside from learning programming languages I also learned that:
+ My insights about programming: 
 </div>
   
   <li className='quote'>
-    <div className='qImgContainer'><img src={qImg1} width={70} className='qImg'/></div>
-    <div className='qWords'>Continious practice and research are essential elements to be an efficient programmer</div>
+    <div className='qImgContainer'><img src={qImg1} width={50} className='qImg'/></div>
+    <div className='qWords'>Continious practice and research are essential elements to be an efficient programmer.</div>
   </li>
 
   <li className='quote'>
-  <div className='qImgContainer' ><img src={qImg2} width={70} className='qImg'/></div>
-  <div className='qWords'>One of the important mindset to learn more is to always acknowledge that you know less</div>
+  <div className='qImgContainer' ><img src={qImg2} width={50} className='qImg'/></div>
+  <div className='qWords'>One of the important mindset to learn more is to always acknowledge that you know less.</div>
      </li>
 
   <li className='quote'>
-  <div className='qImgContainer'><img src={qImg3} width={70} className='qImg'/></div>
-  <div className='qWords'>Be aware that coding is never easy - But heck! It is really fulfilling!</div>
+  <div className='qImgContainer'><img src={qImg3} width={50} className='qImg'/></div>
+  <div className='qWords'>Coding is not easy - but is very fulfilling.</div>
   </li>
 
 </div>
