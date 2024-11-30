@@ -45,7 +45,9 @@
         }
         
         .menuItem {
-        margin: 30px
+        margin: 30px;
+        font-weight: bolder;
+        font-family: "Geist Mono", monospace;
         }
         
         
@@ -125,7 +127,9 @@
         }
         
         .menuItem {
-        margin: 30px
+          margin: 30px;
+          font-weight: bolder;
+          font-family: "Geist Mono", monospace;
         }
         
         
@@ -185,6 +189,8 @@
       z-index: 10;  /* Ensure the menu appears above the header */
       background-color: rgba(13, 55, 172, 0.822);
       justify-items: center;
+        font-weight: bolder;
+        font-family: "Geist Mono", monospace;
     }
   
   /* When the menu is open, slide it into view below the header */

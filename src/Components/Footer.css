@@ -42,9 +42,10 @@
 
 
 .socials {
-color: white;
-border-style: solid;
-    border-color: blue;
+    color: white;
+    margin-right: 20px;
+    font-size: xx-small;
+    font-style: italic;
 }
      
     }
@@ -64,9 +65,10 @@ border-style: solid;
 
 
 .socials {
-color: white;
-border-style: solid;
-border-color: blue;
+    color: white;
+    margin-right: 20px;
+    font-size: xx-small;
+    font-style: italic;
 }
      
       }

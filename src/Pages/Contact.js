@@ -7,7 +7,7 @@ const Contact = () => {
 
 
    <div className="contactIntro">
-      Hello, I am seeking for employment as a Junior or assistant Junior Web Developer. I hope you will provide me an oppurtunity to contribute and grow at the same time in programming industry. 
+     Thank you for taking the time to visit and browse my website portfolio. I hope you will provide me an oppurtunity to contribute and grow at the same time in programming industry. 
 
       Should you have further question you can send me a message through the following: 
     </div>
@@ -38,7 +38,7 @@ const Contact = () => {
 
 
 <div className='plzImgContainer'>
-<img src={plz} height={400} width={430} className='plzImg'/>
+
 </div>
   
 </div>

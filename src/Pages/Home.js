@@ -28,7 +28,7 @@ const Home = () => {
 <div className="techs">
 
 
-<div className='intro'>Thank you for visiting my website portfolio. My name is Luis, I'm an aspiring Junior Web Developer. Feel free to browse my portfolio. I made it a bit interactive, kindly hover or click most elements if you're on mobile to learn more. Thank you!</div>
+<div className='intro'>Thank you for visiting my website portfolio. My name is Luis, I am aspiring to be Junior Web Developer. Feel free to browse my portfolio. I made it a bit interactive, kindly hover or click most elements if you're on mobile to learn more. Thank you!</div>
 
 <ul className='tech-list'>
 

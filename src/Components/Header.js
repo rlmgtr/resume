@@ -11,7 +11,7 @@ const Header = () => {
     setIsOpen((open) => !open);
   }
 
-  const dlogo = "<rlcm/>"
+  const dlogo = "<RLCM/>"
 
   return (
     <div>

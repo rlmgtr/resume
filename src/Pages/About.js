@@ -19,7 +19,7 @@ const About = () => {
   
 
       <div className='aboutWork'>
-        <div className='aboutTitle'>Work Experiences</div>
+        <div className='aboutTitle'>WORK EXPERIENCES</div>
 
 
 <div className='workList'>
@@ -27,7 +27,8 @@ const About = () => {
         <div className='workCardContainer'>
 
           <div className='workCaption'>
-            I have been a Product Support Specialist for an LMS product since 2020
+            <li>EdTech Specialist</li>
+            <li>2020 - Present</li>
           </div>
 
           <div className='workCardImg'>
@@ -35,7 +36,10 @@ const About = () => {
           </div>
 
           <div className='workCardInfo'>
-          This job has enhanced my knowledge of user experience and interfaces.
+          <li>Sales</li>
+          <li>Training</li>
+          <li>Data Analytics</li>
+          
           </div>
         </div>  
 
@@ -47,7 +51,8 @@ const About = () => {
         <div className='workCardContainer'>
 
         <div className='workCaption'>
-        I was a Research and ICT SHS teacher from 2017 to 2020.
+        <li>Senior HS Teacher</li>
+            <li>2017 - 2020</li>
           </div>
 
           <div className='workCardImg'>
@@ -55,7 +60,9 @@ const About = () => {
           </div>
 
           <div className='workCardInfo'>
-          This profession made me a better researcher and a more eager learner.
+          <li>ICT</li>
+          <li>Research</li>
+          <li>Social Sciences</li>
           </div>
         </div>
 
@@ -66,7 +73,8 @@ const About = () => {
         <div className='workCardContainer'>
 
         <div className='workCaption'>
-        I worked as a TSR and CSR in 2011 to 2017
+        <li>Call Center Agent</li>
+            <li>2011 - 20217</li>
           </div>
 
           <div className='workCardImg'>
@@ -74,7 +82,9 @@ const About = () => {
           </div>
 
           <div className='workCardInfo'>
-          I gained knowledge in troubleshooting and communication.
+        <li>Customer Support</li>
+        <li>Technical Support</li>
+        <li>New Hire Mentor</li>
           </div>
         </div>
 
@@ -85,7 +95,7 @@ const About = () => {
 
   <div className='aboutEduc'>
 
-        <div className='aboutTitle'>Education</div>
+        <div className='aboutTitle'>EDUCATION</div>
       
       <div className='educList'>
 

@@ -15,7 +15,7 @@ const Porftolio = () => {
     <div className='portfolioStyle'>
       
 
-<div className='portHeader'>Projects</div>
+<div className='portHeader'>PROJECTS</div>
 
     <div className='classProjects'>
 
@@ -88,7 +88,7 @@ const Porftolio = () => {
 
 <div className='projectCard'>
 <div className='projNameAndTech' >
-<li>My Portfolio</li>
+<li>rlcm.Tech</li>
 <ul className='techUsed'>
 <li><img src={html} width={20} height={20} className='techUsedLi'/></li>
 <li><img src={csstyle} width={20} height={20} className='techUsedLi'/> </li>
@@ -99,7 +99,7 @@ const Porftolio = () => {
 <img src={myPortf}  className='projImg' width={360} height={210} alt="sample image"/> 
 
 </div> 
-<div className='projInfo'>You are looking at it right now. Hopefully this website can help me land a job. </div>
+<div className='projInfo'>My Website Portfolio.</div>
 </div>
 
 

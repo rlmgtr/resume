@@ -89,7 +89,7 @@ border-radius: 10px;
     place-items: center;
     border-radius: 10px;
     width: 180px;
-    height: 80px;
+    height: 40px;
     padding: 5px;
     margin-bottom: 2.5px;
     background-color: rgba(31, 83, 224, 0.89);
@@ -127,7 +127,7 @@ border-radius: 10px;
     justify-content: center;
     border-radius: 10px;
     width: 180px;
-    height: 90px;
+    height: 65px;
     margin: 2.5px; /* Add spacing around the element */
     background-color: rgba(31, 83, 224, 0.89);
     color: white;
@@ -299,12 +299,12 @@ a {
         place-items: center;
         border-radius: 10px;
         width: 200px;
-        height: 80px;
+        height: 40px;
         padding: 5px;
         margin-top: -20px;
         margin-bottom: 2.5px;
         background-color: rgba(31, 83, 224, 0.89);
-        font-size: large;
+        font-size: medium;
         color: white;
         line-height: 1.2;
         place-items: center;
@@ -347,12 +347,12 @@ a {
         justify-content: center;
         border-radius: 10px;
         width: 200px;
-        height: 100px;
+        height: 65px;
         margin-top: 2.5px;
         margin-bottom: -50px;
         background-color: rgba(31, 83, 224, 0.89);
         color: white;
-        font-size: large;
+        font-size: medium;
         padding: 5px;
       }
     
@@ -415,7 +415,7 @@ a {
         border-style: solid;
         border-radius: 10px;
         padding: 5px;
-        font-size: medium;
+        font-size: small;
         margin: auto;
         text-align: center;
         background-color:rgba(31, 83, 224, 0.89);
