@@ -7,7 +7,7 @@ const Contact = () => {
 
 
    <div className="contactIntro">
-     Thank you for taking the time to visit and browse my website portfolio. I hope you will provide me an oppurtunity to contribute and grow at the same time in programming industry. 
+     Thank you for taking the time to visit and browse my website portfolio. I hope you can provide me an oppurtunity to contribute and grow at the same time in programming industry. 
 
       Should you have further question you can send me a message through the following: 
     </div>
@@ -37,9 +37,7 @@ const Contact = () => {
 </div>
 
 
-<div className='plzImgContainer'>
 
-</div>
   
 </div>
 
