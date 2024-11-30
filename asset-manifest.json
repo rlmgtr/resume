@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.c166aa6c.css",
-    "main.js": "/resume/static/js/main.3c00a93c.js",
-    "static/media/me2.png": "/resume/static/media/me2.c77400910b3c155e043b.png",
-    "static/media/me.png": "/resume/static/media/me.d15225b52559c9147138.png",
-    "static/media/bgImg.jpg": "/resume/static/media/bgImg.338cb1161ae629ec69df.jpg",
-    "static/media/weaApp.jpg": "/resume/static/media/weaApp.da1fed16f8d37c8b45d0.jpg",
-    "static/media/plz.png": "/resume/static/media/plz.5d0e7b968b2dcc4a4da3.png",
-    "static/media/myPortf.jpg": "/resume/static/media/myPortf.726ccca61808c4ee9433.jpg",
-    "static/media/webStudio.jpg": "/resume/static/media/webStudio.b2fd550f7cd6004925b6.jpg",
-    "static/media/expTracker.jpg": "/resume/static/media/expTracker.39755f841b714283e768.jpg",
-    "static/media/slimMom.jpg": "/resume/static/media/slimMom.3fbf82b3a3b5247090b0.jpg",
-    "static/media/pnu.jpg": "/resume/static/media/pnu.d254db902c7d6da1e551.jpg",
-    "static/media/lss.jpg": "/resume/static/media/lss.3956d09939245d110db1.jpg",
-    "static/media/ntc.jpg": "/resume/static/media/ntc.f30e80f944026635ad5f.jpg",
-    "static/media/educ.jpg": "/resume/static/media/educ.0e519e2af9f716e12ea4.jpg",
-    "static/media/goit.jpg": "/resume/static/media/goit.d6829e866e01c4aeab9c.jpg",
-    "index.html": "/resume/index.html",
-    "main.c166aa6c.css.map": "/resume/static/css/main.c166aa6c.css.map",
-    "main.3c00a93c.js.map": "/resume/static/js/main.3c00a93c.js.map"
+    "main.css": "/rlcm.tech/static/css/main.38d6be7e.css",
+    "main.js": "/rlcm.tech/static/js/main.d258df25.js",
+    "static/media/me2.png": "/rlcm.tech/static/media/me2.c77400910b3c155e043b.png",
+    "static/media/me.png": "/rlcm.tech/static/media/me.d15225b52559c9147138.png",
+    "static/media/weaApp.jpg": "/rlcm.tech/static/media/weaApp.da1fed16f8d37c8b45d0.jpg",
+    "static/media/plz.png": "/rlcm.tech/static/media/plz.5d0e7b968b2dcc4a4da3.png",
+    "static/media/myPortf.jpg": "/rlcm.tech/static/media/myPortf.726ccca61808c4ee9433.jpg",
+    "static/media/bgImg2.jpg": "/rlcm.tech/static/media/bgImg2.f20c36b1d277d7d581f0.jpg",
+    "static/media/webStudio.jpg": "/rlcm.tech/static/media/webStudio.b2fd550f7cd6004925b6.jpg",
+    "static/media/expTracker.jpg": "/rlcm.tech/static/media/expTracker.39755f841b714283e768.jpg",
+    "static/media/slimMom.jpg": "/rlcm.tech/static/media/slimMom.3fbf82b3a3b5247090b0.jpg",
+    "static/media/pnu.jpg": "/rlcm.tech/static/media/pnu.d254db902c7d6da1e551.jpg",
+    "static/media/lss.jpg": "/rlcm.tech/static/media/lss.3956d09939245d110db1.jpg",
+    "static/media/ntc.jpg": "/rlcm.tech/static/media/ntc.f30e80f944026635ad5f.jpg",
+    "static/media/educ.jpg": "/rlcm.tech/static/media/educ.0e519e2af9f716e12ea4.jpg",
+    "static/media/goit.jpg": "/rlcm.tech/static/media/goit.d6829e866e01c4aeab9c.jpg",
+    "index.html": "/rlcm.tech/index.html",
+    "main.38d6be7e.css.map": "/rlcm.tech/static/css/main.38d6be7e.css.map",
+    "main.d258df25.js.map": "/rlcm.tech/static/js/main.d258df25.js.map"
   },
   "entrypoints": [
-    "static/css/main.c166aa6c.css",
-    "static/js/main.3c00a93c.js"
+    "static/css/main.38d6be7e.css",
+    "static/js/main.d258df25.js"
   ]
 }
