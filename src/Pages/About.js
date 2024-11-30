@@ -74,7 +74,7 @@ const About = () => {
 
         <div className='workCaption'>
         <li>Call Center Agent</li>
-            <li>2011 - 20217</li>
+            <li>2011 - 2017</li>
           </div>
 
           <div className='workCardImg'>
