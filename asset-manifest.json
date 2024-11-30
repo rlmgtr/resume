@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/rlcm.tech/static/css/main.68981112.css",
-    "main.js": "/rlcm.tech/static/js/main.e8e96f26.js",
-    "static/media/me2.png": "/rlcm.tech/static/media/me2.c77400910b3c155e043b.png",
-    "static/media/me.png": "/rlcm.tech/static/media/me.d15225b52559c9147138.png",
-    "static/media/weaApp.jpg": "/rlcm.tech/static/media/weaApp.da1fed16f8d37c8b45d0.jpg",
-    "static/media/plz.png": "/rlcm.tech/static/media/plz.5d0e7b968b2dcc4a4da3.png",
-    "static/media/myPortf.jpg": "/rlcm.tech/static/media/myPortf.726ccca61808c4ee9433.jpg",
-    "static/media/bgImg2.jpg": "/rlcm.tech/static/media/bgImg2.f20c36b1d277d7d581f0.jpg",
-    "static/media/webStudio.jpg": "/rlcm.tech/static/media/webStudio.b2fd550f7cd6004925b6.jpg",
-    "static/media/expTracker.jpg": "/rlcm.tech/static/media/expTracker.39755f841b714283e768.jpg",
-    "static/media/slimMom.jpg": "/rlcm.tech/static/media/slimMom.3fbf82b3a3b5247090b0.jpg",
-    "static/media/pnu.jpg": "/rlcm.tech/static/media/pnu.d254db902c7d6da1e551.jpg",
-    "static/media/lss.jpg": "/rlcm.tech/static/media/lss.3956d09939245d110db1.jpg",
-    "static/media/ntc.jpg": "/rlcm.tech/static/media/ntc.f30e80f944026635ad5f.jpg",
-    "static/media/educ.jpg": "/rlcm.tech/static/media/educ.0e519e2af9f716e12ea4.jpg",
-    "static/media/goit.jpg": "/rlcm.tech/static/media/goit.d6829e866e01c4aeab9c.jpg",
-    "index.html": "/rlcm.tech/index.html",
-    "main.68981112.css.map": "/rlcm.tech/static/css/main.68981112.css.map",
-    "main.e8e96f26.js.map": "/rlcm.tech/static/js/main.e8e96f26.js.map"
+    "main.css": "/static/css/main.7ee9fa0b.css",
+    "main.js": "/static/js/main.89706001.js",
+    "static/media/me2.png": "/static/media/me2.c77400910b3c155e043b.png",
+    "static/media/me.png": "/static/media/me.d15225b52559c9147138.png",
+    "static/media/weaApp.jpg": "/static/media/weaApp.da1fed16f8d37c8b45d0.jpg",
+    "static/media/plz.png": "/static/media/plz.5d0e7b968b2dcc4a4da3.png",
+    "static/media/myPortf.jpg": "/static/media/myPortf.726ccca61808c4ee9433.jpg",
+    "static/media/bgImg2.jpg": "/static/media/bgImg2.f20c36b1d277d7d581f0.jpg",
+    "static/media/webStudio.jpg": "/static/media/webStudio.b2fd550f7cd6004925b6.jpg",
+    "static/media/expTracker.jpg": "/static/media/expTracker.39755f841b714283e768.jpg",
+    "static/media/slimMom.jpg": "/static/media/slimMom.3fbf82b3a3b5247090b0.jpg",
+    "static/media/pnu.jpg": "/static/media/pnu.d254db902c7d6da1e551.jpg",
+    "static/media/lss.jpg": "/static/media/lss.3956d09939245d110db1.jpg",
+    "static/media/ntc.jpg": "/static/media/ntc.f30e80f944026635ad5f.jpg",
+    "static/media/educ.jpg": "/static/media/educ.0e519e2af9f716e12ea4.jpg",
+    "static/media/goit.jpg": "/static/media/goit.d6829e866e01c4aeab9c.jpg",
+    "index.html": "/index.html",
+    "main.7ee9fa0b.css.map": "/static/css/main.7ee9fa0b.css.map",
+    "main.89706001.js.map": "/static/js/main.89706001.js.map"
   },
   "entrypoints": [
-    "static/css/main.68981112.css",
-    "static/js/main.e8e96f26.js"
+    "static/css/main.7ee9fa0b.css",
+    "static/js/main.89706001.js"
   ]
 }
