@@ -225,7 +225,6 @@ padding: 1px;
       text-align: center;
       opacity: 0;
       font-size: small;
-      
      padding: 5px;
      background-color:rgba(31, 83, 224, 0.89);
      color: white;
@@ -296,7 +295,26 @@ padding: 1px;
 
 }
 
-
+.projInfo {
+  position: relative;
+  bottom: 100px;
+  left: 0;
+  width: 310px;
+  height: 50px;
+  border-style: solid;
+  text-align: center;
+  opacity: 0;
+  font-size: small;
+ padding: 5px;
+ background-color:rgba(31, 83, 224, 0.89);
+ color: white;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+  top: auto;
+  transform: translateY(100%); /* Slide down from the top */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  
+}
 
 
    
