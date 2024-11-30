@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rlcm.tech/static/css/main.38d6be7e.css",
-    "main.js": "/rlcm.tech/static/js/main.d258df25.js",
+    "main.css": "/rlcm.tech/static/css/main.68981112.css",
+    "main.js": "/rlcm.tech/static/js/main.e8e96f26.js",
     "static/media/me2.png": "/rlcm.tech/static/media/me2.c77400910b3c155e043b.png",
     "static/media/me.png": "/rlcm.tech/static/media/me.d15225b52559c9147138.png",
     "static/media/weaApp.jpg": "/rlcm.tech/static/media/weaApp.da1fed16f8d37c8b45d0.jpg",
@@ -17,11 +17,11 @@
     "static/media/educ.jpg": "/rlcm.tech/static/media/educ.0e519e2af9f716e12ea4.jpg",
     "static/media/goit.jpg": "/rlcm.tech/static/media/goit.d6829e866e01c4aeab9c.jpg",
     "index.html": "/rlcm.tech/index.html",
-    "main.38d6be7e.css.map": "/rlcm.tech/static/css/main.38d6be7e.css.map",
-    "main.d258df25.js.map": "/rlcm.tech/static/js/main.d258df25.js.map"
+    "main.68981112.css.map": "/rlcm.tech/static/css/main.68981112.css.map",
+    "main.e8e96f26.js.map": "/rlcm.tech/static/js/main.e8e96f26.js.map"
   },
   "entrypoints": [
-    "static/css/main.38d6be7e.css",
-    "static/js/main.d258df25.js"
+    "static/css/main.68981112.css",
+    "static/js/main.e8e96f26.js"
   ]
 }
