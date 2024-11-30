@@ -19,9 +19,16 @@
     /* Desktop (1200px and up) */
 @media (min-width: 1200px) {
     .meImg {
-      height: 400px; 
+      height: 500px; 
       position: block;
     background-color: rgba(31, 83, 224, 0.89);
+    background-image: url(./css-images/homeImgBg.jpg);
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image in the element */
+    background-repeat: no-repeat;
+ 
+  object-fit: contain;
+
     border-style: solid;
     border-color: white;
     margin-top: 50px;

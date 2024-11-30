@@ -11,7 +11,8 @@ const Footer = () => {
         <li>My ever supportive wife, Ann.</li>
         <li>To my mentors and classmates from GoIT Phillippines.</li>
         <li>To all the available public sources and community of WebDev</li>
-        <li>Mr.Abdul Gofur for the amazing webiste background.</li>
+        <li>Mr.Abdul Gofur for the amazing webiste background (vecteezy.com). </li>
+        <li>Mr.Teguh Jati Prasetyo for the amazing webiste image (vecteezy.com).</li>
         </ul> 
 
 
