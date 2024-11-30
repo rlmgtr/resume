@@ -21,7 +21,7 @@ const Home = () => {
     <div className='homeWrapper'>
 
 <div className='meImg'> <img src={me2} height={650} width={500} />
-<div className='meImgUnder'></div></div>
+</div>
 
 
 <div className='techandQuotes'>
