@@ -8,7 +8,7 @@ import weaApp from '../images/Portfolio/weaApp.jpg'
 import slimMom from '../images/Portfolio/slimMom.jpg'
 import expTracker from '../images/Portfolio/expTracker.jpg'
 import myPortf from '../images/Portfolio/myPortf.jpg'
-
+import mongoDB from '../images/About/mongoDB.jpg'
 
 const Porftolio = () => {
   return (
@@ -75,6 +75,8 @@ const Porftolio = () => {
 <ul className='techUsed'>
 <li><img src={html} width={20} height={20} className='techUsedLi'/></li>
 <li><img src={csstyle} width={20} height={20} className='techUsedLi'/> </li>
+<li><img src={reactJS} width={20} height={20} className='techUsedLi'/> </li>
+
 </ul>
 </div>
 <div className='projectCardImg'>
